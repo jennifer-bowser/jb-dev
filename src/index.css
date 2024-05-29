@@ -1,8 +1,11 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    --base-font: 'roc-grotesk', Helvetica, Arial, sans-serif;
+    --mono-font: 'JetBrains Mono', 'Fira Code', monospace;
+    font-family: var(--base-font);
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 *{
