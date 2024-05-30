@@ -1,0 +1,9 @@
+.NavMenu{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.NavMenu li{
+    margin-right: 10px;
+}

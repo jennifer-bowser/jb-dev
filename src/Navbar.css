@@ -2,12 +2,3 @@
     display: flex;
     justify-content: space-between;
 }
-
-.Navbar-Ul{
-    display: flex;
-    list-style-type: none;
-}
-
-.Navbar-Ul li{
-    margin-right: 10px;
-}
