@@ -11,10 +11,7 @@ export default function NavMenu(){
     ]
     const [activeSection, setActiveSection] = useState(sections[0]);
 
-    const isActive = (section) => {
-        console.log(`${section} is active: ${activeSection === section}`)
-        return activeSection === section;
-    }
+    const isActive = (section) => activeSection === section;
 
     const handleClick = (section) => {
         setActiveSection(section);

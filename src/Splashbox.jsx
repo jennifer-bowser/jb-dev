@@ -1,9 +1,10 @@
 import "./Splashbox.css";
+import TypingLetters from "./TypingLetters";
 
 export default function Splashbox(){
     return (
         <section className="Splashbox" id="home">
-            test
+            <TypingLetters text={"hi, i'm jennifer"}/>
         </section>
     )
 }

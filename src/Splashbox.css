@@ -6,5 +6,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: -100; /* prevent Splashbox from blocking Navbar or NavMenu*/
+    z-index: -2; /* prevent Splashbox from blocking Navbar or NavMenu*/
 }
