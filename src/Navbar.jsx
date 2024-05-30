@@ -4,7 +4,7 @@ import "./Navbar.css"
 export default function Navbar(){
     return (
         <div className="Navbar">
-            <div>Logo goes here</div>
+            <img src="src/assets/jb-logo-full.svg" width="300px"/>
             <NavMenu />
         </div>
     )

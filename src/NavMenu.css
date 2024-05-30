@@ -24,11 +24,11 @@
 }
 
 .NavMenu a:hover{
-    background-color: var(--accent);
+    background-color: var(--accent-color);
 }
 
 .NavMenu-Highlight{
-    background-color: var(--accent);
+    background-color: var(--accent-color);
     bottom: 4px;
     height: 8px;
     left: 7px;

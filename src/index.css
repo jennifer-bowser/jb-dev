@@ -9,8 +9,8 @@
     -moz-osx-font-smoothing: grayscale;
 
     /* Colors */
-    --contrast: #000000;
-    --accent: #f2ae6b;
+    --contrast-color: #000000;
+    --accent-color: #f2ae6b;
 
     /* Misc */
     --transition: 0.25s ease-in-out;
@@ -18,4 +18,9 @@
 
 *{
     box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }

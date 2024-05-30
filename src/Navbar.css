@@ -1,4 +1,7 @@
 .Navbar{
+    align-items: flex-end;
+    border-bottom: 2px solid var(--contrast-color);
     display: flex;
     justify-content: space-between;
+    padding: 20px 15px 5px 15px;
 }
