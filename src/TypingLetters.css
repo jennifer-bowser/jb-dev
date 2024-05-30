@@ -1,0 +1,50 @@
+.TypingLetters-Text{
+    font-size: 50pt;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    border-right: 4px solid black;
+    margin: 0;
+    animation: type 7s steps(16) infinite, cursorBlink 0.75s step-end infinite; /* numSteps = number of chars (including spaces)*/
+}
+
+
+@keyframes type {
+    0%,  /*start of animation */
+    25%, /* delay before typing begins */
+    100% /* time when deletion ends */
+    {
+        width: 0%;
+    }
+
+    50%, /* time when typing ends */
+    80%  /* time when deletion begins */
+    {
+        width: 100%;
+    }
+}
+
+@keyframes cursorBlink {
+    0% {
+        border-right-color: black;
+    }
+    40% {
+        border-right-color: black;
+    }
+    60% {
+        border-right-color: transparent;
+    }
+    100% {
+        border-right-color: transparent;
+    }
+}
+
+.TypingLetters-Background{
+    width: 100%;
+    height: 50px;
+    background-color: var(--accent-color);
+    position: relative;
+    bottom: 40px;
+    z-index: -1;
+}
