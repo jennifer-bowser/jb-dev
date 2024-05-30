@@ -1,9 +1,44 @@
 .NavMenu{
+    --horizontal-padding: 7px;
     display: flex;
     list-style-type: none;
     margin: 0;
 }
 
 .NavMenu li{
-    margin-right: 10px;
+    margin-right: 20px;
+    position: relative; /* Allows .NavMenu-Highlight to be absolutely positioned */
+}
+
+.NavMenu li:last-of-type{
+    margin-right: 0;
+}
+
+.NavMenu a{
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1.4em;
+    text-decoration: none;
+    transition: background-color var(--transition);
+    padding: 2px var(--horizontal-padding) 0 var(--horizontal-padding);
+}
+
+.NavMenu a:hover{
+    background-color: var(--accent);
+}
+
+.NavMenu-Highlight{
+    background-color: var(--accent);
+    bottom: 4px;
+    height: 8px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    transition: opacity var(--transition);
+    width: calc(100% -  2 * var(--horizontal-padding));
+    z-index: -1;
+}
+
+.Active{
+    opacity: 1;
 }

@@ -1,11 +1,19 @@
 :root {
-    --base-font: 'roc-grotesk', Helvetica, Arial, sans-serif;
-    --mono-font: 'JetBrains Mono', 'Fira Code', monospace;
+    /* Fonts */
+    --base-font: "roc-grotesk", Helvetica, Arial, sans-serif;
+    --mono-font: "JetBrains Mono", "Fira Code", monospace;
     font-family: var(--base-font);
     font-weight: 300;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    /* Colors */
+    --contrast: #000000;
+    --accent: #f2ae6b;
+
+    /* Misc */
+    --transition: 0.25s ease-in-out;
 }
 
 *{
