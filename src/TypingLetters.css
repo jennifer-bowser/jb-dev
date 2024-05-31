@@ -1,4 +1,5 @@
 .TypingLetters-Text{
+    font-family: var(--mono-font);
     font-size: 50pt;
     font-weight: 500;
     overflow: hidden;
