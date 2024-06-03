@@ -1,0 +1,21 @@
+.Separator{
+    transform: rotate(270deg);
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Separator-Link{
+    border-bottom: 1px solid var(--contrast-color);
+    width: 100%;
+    font-family: var(--mono-font);
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+}
+
+.Separator-Link .Accent-Text{
+    font-weight: 800;
+}
