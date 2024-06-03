@@ -1,0 +1,23 @@
+.SplashboxBulletList .BulletList{
+    font-size: 1.75em;
+    padding-left: 12px;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+.SplashboxBulletList .BulletList li{
+    text-decoration: 2px solid underline var(--contrast-color);
+}
+
+.SplashboxBulletList .BulletList li::marker{
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+/* accented down arrow */
+.SplashboxBulletList .BulletList li:last-of-type::after{
+    content: "↓";
+    font-family: var(--mono-font);
+    color: var(--accent-color);
+    font-weight: 900;
+}

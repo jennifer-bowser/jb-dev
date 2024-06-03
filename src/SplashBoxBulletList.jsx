@@ -1,4 +1,5 @@
 import BulletList from "./BulletList";
+import "./SplashboxBulletList.css";
 
 export default function SplashboxBulletList(){
     const listItems=[
@@ -7,7 +8,9 @@ export default function SplashboxBulletList(){
         "check out my work"
     ];
 
-    return(
-        <BulletList listItems={listItems} />
+    return (
+        <div className="SplashboxBulletList">
+            <BulletList listItems={listItems} customBullet={">"} />
+        </div>
     )
 }

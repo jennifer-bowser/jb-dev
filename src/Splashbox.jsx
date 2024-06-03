@@ -1,8 +1,7 @@
-import BulletList from "./BulletList";
 import Separator from "./Separator";
-import SplashboxBulletList from "./SplashBoxBulletList";
-import "./Splashbox.css";
+import SplashboxBulletList from "./SplashboxBulletList";
 import TypingLetters from "./TypingLetters";
+import "./Splashbox.css";
 
 export default function Splashbox(){
     return (
