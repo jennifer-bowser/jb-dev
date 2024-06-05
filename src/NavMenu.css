@@ -1,5 +1,6 @@
 .NavMenu{
     --horizontal-padding: 7px;
+    
     display: flex;
     list-style-type: none;
     margin: 0;
