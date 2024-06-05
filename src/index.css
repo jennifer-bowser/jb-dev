@@ -9,6 +9,7 @@
     -moz-osx-font-smoothing: grayscale;
 
     /* Colors */
+    --neutral-color: #ffffff;
     --contrast-color: #000000;
     --accent-color: #f2ae6b;
 
