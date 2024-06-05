@@ -1,0 +1,27 @@
+.Section{
+    padding: 0 12%;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 4em;
+}
+
+.Section-Heading-Animation{
+    animation-name: slideIn;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

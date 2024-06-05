@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
 import Splashbox from './Splashbox'
+import Section from './Section'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <>
         <Navbar />
         <Splashbox />
-        <h1>my portfolio <span className="Accent-Text">.</span></h1>
+        <Section title="portfolio" />
     </>
   )
 }
