@@ -1,14 +1,8 @@
 import "./NavMenu.css";
 import { useState } from "react";
 
-export default function NavMenu(){
-    const sections = [
-        "home",
-        "portfolio",
-        "about",
-        "resume",
-        "contact"
-    ]
+export default function NavMenu({sectionTitles}){
+    const sections = ["home"].concat(sectionTitles);
     const [activeSection, setActiveSection] = useState(sections[0]);
 
     const isActive = (section) => activeSection === section;

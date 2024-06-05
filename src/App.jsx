@@ -4,13 +4,22 @@ import Section from './Section'
 
 function App() {
 
-  return (
+    const sectionTitles = [
+        "portfolio",
+        "about",
+        "resume",
+        "contact"
+    ];
+
+    return (
     <>
-        <Navbar />
+        <Navbar sectionTitles={sectionTitles}/>
         <Splashbox />
-        <Section title="portfolio" />
+        {sectionTitles.map( (sectionTitle, index) => (
+                <Section title={sectionTitle} content="" key={index}/>
+        ))}
     </>
-  )
+    )
 }
 
 export default App
