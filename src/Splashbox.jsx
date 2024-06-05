@@ -1,6 +1,6 @@
 import Separator from "./Separator";
-import SplashboxBulletList from "./SplashboxBulletList";
 import TypingLetters from "./TypingLetters";
+import SplashboxBulletList from "./SplashBoxBulletList";
 import "./Splashbox.css";
 
 export default function Splashbox(){
