@@ -1,4 +1,5 @@
 import About from "./About";
+import Resume from "./Resume";
 import { titleCase } from "./Util";
 import "./Section.css";
 // import { useEffect, useRef } from "react";
@@ -41,7 +42,8 @@ export default function Section({title}){
     // }, [headingRef, options])
 
     const components = {
-        "about": <About />
+        "about": <About />,
+        "resume": <Resume />
     }
 
     return(

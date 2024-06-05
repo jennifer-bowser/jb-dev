@@ -30,9 +30,10 @@ body{
 a{
     color: var(--contrast-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
-section{
+#root > section{
     padding: 0 12%;
 }
 
