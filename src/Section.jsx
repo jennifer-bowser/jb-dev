@@ -1,4 +1,5 @@
 import About from "./About";
+import { titleCase } from "./Util";
 import "./Section.css";
 // import { useEffect, useRef } from "react";
 
@@ -44,7 +45,7 @@ export default function Section({title}){
     }
 
     return(
-        <section className="Section">
+        <section className={`Section ${titleCase(title)}`}>
             <h1 /*ref={headingRef}*/ id={title}>{title}<span className="Accent-Text">.</span></h1>
             {components[title] ?? ""}
         </section>

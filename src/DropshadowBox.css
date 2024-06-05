@@ -1,0 +1,4 @@
+.DropshadowBox{
+    border: 2px solid var(--contrast-color);
+    box-shadow: 5px 5px 0px var(--accent-color);
+}
