@@ -1,10 +1,7 @@
 .Splashbox{
-    height: 100vh;
+    height: calc(100vh - 82px); /* height of NavBar */
     width: 100%;
-    position: absolute;
-    top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: -2; /* prevent Splashbox from blocking Navbar or NavMenu*/
 }

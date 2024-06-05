@@ -7,6 +7,7 @@ function App() {
     <>
         <Navbar />
         <Splashbox />
+        <h1>my portfolio <span className="Accent-Text">.</span></h1>
     </>
   )
 }
