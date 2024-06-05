@@ -16,7 +16,7 @@ function App() {
         <Navbar sectionTitles={sectionTitles}/>
         <Splashbox />
         {sectionTitles.map( (sectionTitle, index) => (
-                <Section title={sectionTitle} content="" key={index}/>
+                <Section title={sectionTitle} key={index}/>
         ))}
     </>
     )

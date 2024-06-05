@@ -1,7 +1,8 @@
+import About from "./About";
 import "./Section.css";
-import { useEffect, useRef } from "react";
+// import { useEffect, useRef } from "react";
 
-export default function Section({title, content}){
+export default function Section({title}){
     // const headingRef = useRef(null);
 
     // const observerFunction = (entries) => {
@@ -38,10 +39,14 @@ export default function Section({title, content}){
     //     }
     // }, [headingRef, options])
 
+    const components = {
+        "about": <About />
+    }
+
     return(
         <section className="Section">
             <h1 /*ref={headingRef}*/ id={title}>{title}<span className="Accent-Text">.</span></h1>
-            {content}
+            {components[title] ?? ""}
         </section>
     )
 }
