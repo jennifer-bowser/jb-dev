@@ -62,3 +62,8 @@ h2{
     font-size: 1em;
     text-transform: uppercase;
 }
+
+.Dropshadow-Box{
+    border: 2px solid var(--contrast-color);
+    box-shadow: 5px 5px 0px var(--accent-color);
+}

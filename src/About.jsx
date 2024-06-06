@@ -1,5 +1,4 @@
 import "./About.css";
-import DropshadowBox from "./DropshadowBox";
 
 export default function About(){
     const langs = [
@@ -27,7 +26,9 @@ export default function About(){
             <section className="About-Stack">
                 <h2>my stack<span className="Accent-Text">:</span></h2>
                 <p className="Subtitle">Here are a few technologies I'm enjoying right now</p>
-                <DropshadowBox content={langs}/>
+                <div className="Dropshadow-Box">
+                    {langs}
+                </div>
             </section>
         </>
     )
