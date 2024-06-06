@@ -17,8 +17,9 @@
     margin: 0;
 }
 
-.About .Subtitle{
+.About-Stack p{
     font-size: 1.15em;
+    font-family: var(--mono-font);
     text-transform: none;
     margin: 20px 0;
 }

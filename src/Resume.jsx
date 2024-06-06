@@ -1,6 +1,26 @@
+import BulletList from "./BulletList";
 import "./Resume.css";
 
 export default function Resume(){
+    const workExperienceListItems = [
+        "Develop and mantain full-stack features for data visualization web app using PHP and Javascript/React to provide insights needed to build and develop education institutions, companies, and communities.",
+        "Collaborate with cross-functional team members to design new features and to incorporate new data streams into existing tools.",
+        "Communicate with Product Managers to identify minimum viable product requirements and clearly defined feature sets.",
+        "Conduct regular code reviews and offer constructive feedback to maintain best-practice standards throughout the codebase.",
+        "Engage in Agile development processes, including sprint planning, daily stand-up, and retrospectives."
+    ];
+
+    const skillsListItems = [
+        <><span className="Bold">Technologies: </span>JavaScript, Node.js, PHP, SQL, MongoDB, Python, D3.js, React, APIs, Express,js, FXML, XML, HTML, CSS</>,
+        <><span className="Bold">Tools: </span>Git, GitHub, GitLab, Jira, Adobe Photoshop, Adobe Illustrator, Figma, Invision</>
+    ];
+
+    const certListItems = [
+        "CompTIA A+ Certification",
+        "CompTIA Project+ Certification",
+        "Google IT Certification"
+    ]
+
     return(
         <>
             <a className="Resume-PDF-Link Subtitle">view as pdf</a>
@@ -9,26 +29,7 @@ export default function Resume(){
                     <h3>Work Experience</h3>
                     <h4>Full-Stack Software Engineer II - Lightcast</h4>
                     <p className="Subtitle">Moscow, ID | May 2022 - Present</p>
-                    <ul>
-                        <li>
-                            Develop and mantain full-stack features for data visualization web app using PHP and Javascript/React
-                            to provide insights needed to build and develop education institutions, companies, and communities.
-                        </li>
-                        <li>
-                            Collaborate with cross-functional team members to design new features and to incorporate new data streams
-                            into existing tools.
-                        </li>
-                        <li>
-                            Communicate with Product Managers to identify minimum viable product requirements and clearly defined feature sets.
-                        </li>
-                        <li>
-                            Conduct regular code reviews and offer constructive feedback to maintain best-practice standards throughout
-                            the codebase.
-                        </li>
-                        <li>
-                            Engage in Agile development processes, including sprint planning, daily stand-up, and retrospectives.
-                        </li>
-                    </ul>
+                    <BulletList listItems={workExperienceListItems}/>
                 </section>
                 <section>
                     <h3>Education</h3>
@@ -47,18 +48,11 @@ export default function Resume(){
                 </section>
                 <section>
                     <h3>Skills</h3>
-                    <ul>
-                        <li><span>Technologies:</span>JavaScript, Node.js, PHP, SQL, MongoDB, Python, D3.js, React, APIs, Express,js, FXML, XML, HTML, CSS</li>
-                        <li><span>Tools:</span>Git, GitHub, GitLab, Jira, Adobe Photoshop, Adobe Illustrator, Figma, Invision</li>
-                    </ul>
+                    <BulletList listItems={skillsListItems} />
                 </section>
                 <section>
                     <h3>Certifications</h3>
-                    <ul>
-                        <li>CompTIA A+ Certification</li>
-                        <li>CompTIA Project+ Certification</li>
-                        <li>Google IT Certification</li>
-                    </ul>
+                    <BulletList listItems={certListItems}/>
                 </section>
             </div>
         </>

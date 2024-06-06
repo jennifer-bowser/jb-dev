@@ -25,6 +25,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 12pt;
+    font-weight: 300;
 }
 
 a{
@@ -33,23 +34,32 @@ a{
     cursor: pointer;
 }
 
+/* Padding for all site content EXCEPT header/footer */
 #root > section{
     padding: 0 12%;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-weight: 600;
+    line-height: 1em;
 }
 
 h1{
     font-size: 4em;
-    line-height: 1em;
     margin: 0 0 40px 0;
 }
 
 h2{
     font-size: 3em;
     margin: 0 0 20px 0;
+}
+
+h3{
+    font-size: 1.75em;
+}
+
+h4{
+    font-size: 1.25em;
 }
 
 .Accent-Text{
@@ -61,9 +71,14 @@ h2{
     font-weight: 300;
     font-size: 1em;
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .Dropshadow-Box{
     border: 2px solid var(--contrast-color);
     box-shadow: 5px 5px 0px var(--accent-color);
+}
+
+.Bold{
+    font-weight: 600;
 }

@@ -1,3 +1,36 @@
 .Resume-PDF-Link{
     text-decoration: 3px solid underline var(--accent-color);
+    text-align: center;
+    width: 100%;
+    align-self: center;
+}
+
+.Resume .Dropshadow-Box{
+    padding: 75px;
+    max-width: 900px;
+}
+
+.Resume section{
+    margin: 50px 0 0 0;
+}
+
+.Resume section:first-of-type{
+    margin-top: 0;
+}
+
+.Resume h3{
+    margin: 0 0 10px 0;
+}
+
+.Resume h4{
+    margin: 20px 0 5px 0;
+}
+
+.Resume .Dropshadow-Box .Subtitle{
+    margin: 0 0 10px 0;
+    font-size: 0.9em;
+}
+
+.Resume li{
+    font-size: 1.15em;
 }
