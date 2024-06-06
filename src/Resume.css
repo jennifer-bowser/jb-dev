@@ -1,16 +1,22 @@
+.Resume{
+    align-items: center;
+}
+
+.Resume h1{
+    align-self: flex-start;
+}
+
 .Resume-PDF-Link{
+    margin-bottom: 15px;
     text-decoration: 3px solid underline var(--accent-color);
-    text-align: center;
-    width: 100%;
-    align-self: center;
 }
 
 .Resume .Dropshadow-Box{
-    padding: 75px;
     max-width: 900px;
+    padding: 75px;
 }
 
-.Resume section{
+.Resume .Dropshadow-Box>section{
     margin: 50px 0 0 0;
 }
 
@@ -23,12 +29,12 @@
 }
 
 .Resume h4{
-    margin: 20px 0 5px 0;
+    margin: 25px 0 5px 0;
 }
 
 .Resume .Dropshadow-Box .Subtitle{
-    margin: 0 0 10px 0;
     font-size: 0.9em;
+    margin: 0 0 10px 0;
 }
 
 .Resume li{
