@@ -23,7 +23,7 @@ export default function Resume() {
 
     return (
         <>
-            <a className="Resume-PDF-Link Subtitle">view as pdf<img src=".\src\assets\open-new-tab-icon.svg" width="12px" /></a>
+            <a className="Resume-PDF-Link Subtitle" href="src\assets\Jennifer-Bowser-Resume.pdf" target="_blank">view as pdf<img src="src\assets\open-new-tab-icon.svg" width="12px" /></a>
             <div className="Dropshadow-Box" >
                 <section>
                     <h3>Work Experience</h3>
