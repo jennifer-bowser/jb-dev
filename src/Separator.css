@@ -1,26 +1,32 @@
-.Separator{
-    align-items: center;
+.Separator {
+    align-items: flex-end;
     display: flex;
-    height: 50px;
+    height: 500px;
     justify-content: center;
-    transform: rotate(270deg);
-    width: 500px;
+    margin: 0 75px;
 }
 
-.Separator-Link{
-    border-bottom: 1px solid var(--contrast-color);
+.Separator-Link {
     font-family: var(--mono-font);
     letter-spacing: 1px;
     font-size: 0.9em;
     font-weight: 200;
     transition: var(--transition);
     width: 100%;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
 }
 
-.Separator-Link:hover{
+.Separator-Link:hover {
     font-size: 1em;
 }
 
-.Separator-Link .Accent-Text{
+.Separator-Link .Accent-Text {
     font-weight: 800;
+}
+
+.Separator-Line {
+    width: 1px;
+    background-color: var(--contrast-color);
+    height: 100%;
 }

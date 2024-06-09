@@ -1,21 +1,21 @@
-.SplashboxBulletList .BulletList{
+.SplashboxBulletList .BulletList {
     font-size: 1.75em;
     font-weight: 500;
     line-height: 2em;
     padding-left: 12px;
 }
 
-.SplashboxBulletList .BulletList li{
+.SplashboxBulletList .BulletList li {
     text-decoration: 2px solid underline var(--contrast-color);
 }
 
-.SplashboxBulletList .BulletList li::marker{
+.SplashboxBulletList .BulletList li::marker {
     color: var(--accent-color);
     font-weight: 600;
 }
 
 /* accented down arrow */
-.SplashboxBulletList .BulletList li:last-of-type::after{
+.SplashboxBulletList .BulletList li:last-of-type::after {
     color: var(--accent-color);
     content: "↓";
     font-family: var(--mono-font);
