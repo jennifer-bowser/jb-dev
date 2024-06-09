@@ -18,8 +18,9 @@
 
 .NavMenu a {
     color: var(--black);
-    font-weight: 500;
-    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    font-size: 1.3em;
     text-decoration: none;
     transition: background-color var(--transition);
     padding: 2px var(--horizontal-padding) 0 var(--horizontal-padding);
@@ -31,7 +32,7 @@
 
 .NavMenu-Underline {
     background-color: var(--accent-color);
-    bottom: 4px;
+    bottom: 2px;
     height: 8px;
     left: 7px;
     opacity: 0;
