@@ -1,7 +1,7 @@
 import BulletList from "./BulletList";
 import "./Resume.css";
 
-export default function Resume(){
+export default function Resume() {
     const workExperienceListItems = [
         "Develop and mantain full-stack features for data visualization web app using PHP and Javascript/React to provide insights needed to build and develop education institutions, companies, and communities.",
         "Collaborate with cross-functional team members to design new features and to incorporate new data streams into existing tools.",
@@ -21,15 +21,15 @@ export default function Resume(){
         "Google IT Certification"
     ]
 
-    return(
+    return (
         <>
-            <a className="Resume-PDF-Link Subtitle">view as pdf</a>
+            <a className="Resume-PDF-Link Subtitle">view as pdf<img src=".\src\assets\open-new-tab-icon.svg" width="12px" /></a>
             <div className="Dropshadow-Box" >
                 <section>
                     <h3>Work Experience</h3>
                     <h4>Full-Stack Software Engineer II - Lightcast</h4>
                     <p className="Subtitle">Moscow, ID | May 2022 - Present</p>
-                    <BulletList listItems={workExperienceListItems}/>
+                    <BulletList listItems={workExperienceListItems} />
                 </section>
                 <section>
                     <h3>Education</h3>
@@ -52,7 +52,7 @@ export default function Resume(){
                 </section>
                 <section>
                     <h3>Certifications</h3>
-                    <BulletList listItems={certListItems}/>
+                    <BulletList listItems={certListItems} />
                 </section>
             </div>
         </>

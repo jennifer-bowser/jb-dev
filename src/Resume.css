@@ -9,6 +9,20 @@
 .Resume-PDF-Link {
     margin-bottom: 15px;
     text-decoration: 3px solid underline var(--accent-color);
+    transition: var(--transition);
+}
+
+.Resume-PDF-Link img {
+    margin-left: 10px;
+    transition: var(--transition);
+}
+
+.Resume-PDF-Link:hover {
+    font-weight: 400;
+}
+
+.Resume-PDF-Link:hover img {
+    transform: scale(1.2);
 }
 
 .Resume .Dropshadow-Box {
