@@ -26,13 +26,25 @@ export default function Resume() {
             <a className="Resume-PDF-Link Subtitle" href="src\assets\Jennifer-Bowser-Resume.pdf" target="_blank">view as pdf<img src="src\assets\open-new-tab-icon.svg" width="12px" /></a>
             <div className="Dropshadow-Box" >
                 <section>
-                    <h3>Work Experience</h3>
+                    <div className="Resume-Heading-Block">
+                        <div>
+                            <h3>Work Experience</h3>
+                            <div className="Block-Underline"></div>
+                        </div>
+                        <div className="Resume-Heading-Block-Expander"></div>
+                    </div>
                     <h4>Full-Stack Software Engineer II - Lightcast</h4>
                     <p className="Subtitle">Moscow, ID | May 2022 - Present</p>
                     <BulletList listItems={workExperienceListItems} />
                 </section>
                 <section>
-                    <h3>Education</h3>
+                    <div className="Resume-Heading-Block">
+                        <div>
+                            <h3>Education</h3>
+                            <div className="Block-Underline"></div>
+                        </div>
+                        <div className="Resume-Heading-Block-Expander"></div>
+                    </div>
                     <section>
                         <h4>M.S. Software Development - Boston University</h4>
                         <p className="Subtitle">Seattle, WA | January 2024</p>
@@ -47,11 +59,23 @@ export default function Resume() {
                     </section>
                 </section>
                 <section>
-                    <h3>Skills</h3>
+                    <div className="Resume-Heading-Block">
+                        <div>
+                            <h3>Skills</h3>
+                            <div className="Block-Underline"></div>
+                        </div>
+                        <div className="Resume-Heading-Block-Expander"></div>
+                    </div>
                     <BulletList listItems={skillsListItems} />
                 </section>
                 <section>
-                    <h3>Certifications</h3>
+                    <div className="Resume-Heading-Block">
+                        <div>
+                            <h3>Certifications</h3>
+                            <div className="Block-Underline"></div>
+                        </div>
+                        <div className="Resume-Heading-Block-Expander"></div>
+                    </div>
                     <BulletList listItems={certListItems} />
                 </section>
             </div>
