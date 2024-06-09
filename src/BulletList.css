@@ -1,13 +1,14 @@
-.BulletList{
+.BulletList {
     padding: 0 10px;
     margin: 0;
 }
 
-.BulletList li{
+.BulletList li {
     padding-left: 7px;
     margin-bottom: 0.5em;
+    line-height: 1.2em;
 }
 
-.BulletList li:last-of-type{
+.BulletList li:last-of-type {
     margin-bottom: 0;
 }

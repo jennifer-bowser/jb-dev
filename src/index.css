@@ -1,12 +1,13 @@
 :root {
     /* Fonts */
-    --base-font: "roc-grotesk", Helvetica, Arial, sans-serif;
-    --mono-font: "JetBrains Mono", "Fira Code", monospace;
+    --base-font: Manrope, Helvetica, Arial, sans-serif;
+    --mono-font: "Azeret Mono", "Fira Code", monospace;
     font-family: var(--base-font);
     font-weight: 300;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
 
     /* Colors */
     --neutral-color: #ffffff;
@@ -17,56 +18,62 @@
     --transition: 0.25s ease-in-out;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-size: 12pt;
     font-weight: 300;
 }
 
-a{
+a {
     color: var(--contrast-color);
     text-decoration: none;
     cursor: pointer;
 }
 
 /* Padding for all site content EXCEPT header/footer */
-#root > section{
+#root>section {
     padding: 0 12%;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-weight: 600;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
     line-height: 1em;
+    letter-spacing: -0.75px;
 }
 
-h1{
+h1 {
     font-size: 4em;
     margin: 0 0 40px 0;
 }
 
-h2{
+h2 {
     font-size: 3em;
     margin: 0 0 20px 0;
 }
 
-h3{
+h3 {
     font-size: 1.75em;
 }
 
-h4{
+h4 {
     font-size: 1.25em;
 }
 
-.Accent-Text{
+.Accent-Text {
     color: var(--accent-color);
 }
 
-.Subtitle{
+.Subtitle {
     font-family: var(--mono-font);
     font-weight: 300;
     font-size: 1em;
@@ -74,11 +81,11 @@ h4{
     letter-spacing: 3px;
 }
 
-.Dropshadow-Box{
+.Dropshadow-Box {
     border: 2px solid var(--contrast-color);
     box-shadow: 10px 10px 0px var(--accent-color);
 }
 
-.Bold{
+.Bold {
     font-weight: 600;
 }
