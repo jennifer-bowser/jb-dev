@@ -26,8 +26,8 @@
 }
 
 .Resume .Dropshadow-Box {
-    max-width: 800px;
-    padding: 4%;
+    max-width: 900px;
+    padding: 5%;
 }
 
 .Resume .Dropshadow-Box>section {
@@ -43,7 +43,7 @@
 }
 
 .Resume h4 {
-    margin: 25px 0 5px 0;
+    margin: 15px 0 5px 0;
 }
 
 .Resume-Heading-Block {
@@ -63,7 +63,11 @@
 
 .Resume .Dropshadow-Box .Subtitle {
     font-size: 0.8em;
-    margin: 0 0 10px 0;
+    margin: 0;
+}
+
+.Resume ul {
+    margin-top: 10px;
 }
 
 .Resume li {
