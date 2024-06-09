@@ -1,7 +1,10 @@
-.Splashbox{
+.Splashbox {
     align-items: center;
     display: flex;
-    height: calc(100vh - 82px); /* height of NavBar */
-    justify-content: center;
+    /* height of NavBar */
+    height: calc(100vh - 82px);
+    justify-content: space-between;
     width: 100%;
+    margin: 0 auto;
+    padding: 100px 10%;
 }

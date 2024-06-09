@@ -1,9 +1,10 @@
-.Section{
+.Section {
     display: flex;
     flex-direction: column;
+    padding: 0 12%;
 }
 
-.Section-Heading-Animation{
+.Section-Heading-Animation {
     animation-name: slideIn;
     animation-duration: 0.8s;
     animation-iteration-count: 1;
@@ -16,6 +17,7 @@
         opacity: 0;
         transform: translateY(40px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0px);

@@ -35,11 +35,6 @@ a {
     cursor: pointer;
 }
 
-/* Padding for all site content EXCEPT header/footer */
-#root>section {
-    padding: 0 12%;
-}
-
 h1,
 h2,
 h3,

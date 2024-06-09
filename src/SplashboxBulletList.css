@@ -1,3 +1,11 @@
+.SplashboxBulletList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    margin-bottom: 10%;
+}
+
 .SplashboxBulletList .BulletList {
     font-size: 1.75em;
     font-weight: 500;
@@ -7,6 +15,7 @@
 
 .SplashboxBulletList .BulletList li {
     text-decoration: 2px solid underline var(--contrast-color);
+    margin-bottom: 0.75em;
 }
 
 .SplashboxBulletList .BulletList li::marker {

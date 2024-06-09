@@ -1,8 +1,17 @@
-.TypingLetters-Text{
+.TypingLetters {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    margin-top: 20%;
+}
+
+.TypingLetters-Text {
     border-right: 4px solid black;
-    animation: type 7s steps(16) infinite, cursorBlink 0.75s step-end infinite; /* numSteps = number of chars (including spaces)*/
+    animation: type 7s steps(16) infinite, cursorBlink 0.75s step-end infinite;
+    /* numSteps = number of chars (including spaces)*/
     font-family: var(--mono-font);
-    font-size: 50pt;
+    font-size: 4em;
     font-weight: 500;
     margin: 0;
     overflow: hidden;
@@ -12,16 +21,23 @@
 
 
 @keyframes type {
-    0%,  /*start of animation */
-    25%, /* delay before typing begins */
-    100% /* time when deletion ends */
-    {
+    0%,
+    /*start of animation */
+    25%,
+    /* delay before typing begins */
+    100%
+
+    /* time when deletion ends */
+        {
         width: 0%;
     }
 
-    50%, /* time when typing ends */
-    80%  /* time when deletion begins */
-    {
+    50%,
+    /* time when typing ends */
+    80%
+
+    /* time when deletion begins */
+        {
         width: 100%;
     }
 }
@@ -30,21 +46,24 @@
     0% {
         border-right-color: black;
     }
+
     40% {
         border-right-color: black;
     }
+
     60% {
         border-right-color: transparent;
     }
+
     100% {
         border-right-color: transparent;
     }
 }
 
-.TypingLetters-Background{
+.TypingLetters-Background {
     background-color: var(--accent-color);
-    bottom: 40px;
-    height: 50px;
+    bottom: 25px;
+    height: 60px;
     position: relative;
     width: 100%;
     z-index: -1;
