@@ -1,21 +1,21 @@
-.Navbar{
+.Navbar {
     align-items: flex-end;
     background-color: var(--neutral-color);
     border-bottom: 2px solid var(--contrast-color);
     display: flex;
     height: 82px;
     justify-content: space-between;
-    padding: 20px 15px 5px 15px;
+    padding: 20px 30px 5px 30px;
     position: sticky;
     top: 0px;
     z-index: 1;
 }
 
 
-.Navbar-Logolink{
+.Navbar-Logolink {
     transition: var(--transition);
 }
 
-.Navbar-Logolink:hover{
-    transform: scale(1.1);
+.Navbar-Logolink:hover {
+    transform: scale(1.05);
 }
