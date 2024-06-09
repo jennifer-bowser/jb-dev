@@ -8,8 +8,8 @@
 
 .TypingLetters-Text {
     border-right: 4px solid black;
-    animation: type 7s steps(16) infinite, cursorBlink 0.75s step-end infinite;
     /* numSteps = number of chars (including spaces)*/
+    animation: type 7s steps(16) infinite, cursorBlink 0.75s step-end infinite;
     font-family: var(--mono-font);
     font-size: 4em;
     font-weight: 500;
