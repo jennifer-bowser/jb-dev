@@ -19,5 +19,5 @@
     color: var(--accent-color);
     content: "↓";
     font-family: var(--mono-font);
-    font-weight: 900;
+    font-weight: 200;
 }
