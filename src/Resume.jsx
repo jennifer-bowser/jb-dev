@@ -11,7 +11,7 @@ export default function Resume() {
     ];
 
     const skillsListItems = [
-        <><span className="Bold">Technologies: </span>JavaScript, Node.js, PHP, SQL, MongoDB, Python, D3.js, React, APIs, Express,js, FXML, XML, HTML, CSS</>,
+        <><span className="Bold">Technologies: </span>JavaScript, Node.js, PHP, Java, Python, SQL, MongoDB, D3.js, React, APIs, Express,js, FXML, XML, HTML, CSS</>,
         <><span className="Bold">Tools: </span>Git, GitHub, GitLab, Jira, Adobe Photoshop, Adobe Illustrator, Figma, Invision</>
     ];
 
