@@ -6,9 +6,11 @@ import "./Splashbox.css";
 export default function Splashbox(){
     return (
         <section className="Splashbox" id="home">
-            <TypingLetters text={"hi, i'm jennifer"}/>
-            <Separator />
-            <SplashboxBulletList />
+            <div className="Splashbox-Content-Wrapper">
+                <TypingLetters text={"hi, i'm jennifer"}/>
+                <Separator />
+                <SplashboxBulletList />
+            </div>
         </section>
     )
 }
