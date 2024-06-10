@@ -1,18 +1,7 @@
+import images from "./TechImages";
 import "./About.css";
 
 export default function About() {
-    const langs = [
-        "JavaScript",
-        "Node.js",
-        "React",
-        "SQL",
-        "Java",
-        "PHP",
-        "mongoDB",
-        "Express",
-        "HTML",
-        "CSS"
-    ];
 
     return (
         <>
@@ -21,13 +10,15 @@ export default function About() {
                 I graduated from Pepperdine University in 2017 with a degree in Biology; however,
                 one Excel macro led to another and I soon discovered a love of programming! I have since
                 obtained a B.S. in Software Development, and also recently finished a Masters of Science
-                in Software Development at Boston University. Looking forward to working with you!
+                in Software Development at Boston University. I&apos;m  looking forward to working with you!
             </p>
             <section className="About-Stack">
                 <h2>my stack<span className="Accent-Text">:</span></h2>
                 <p>Here are a few technologies I&apos;m enjoying right now</p>
                 <div className="Dropshadow-Box">
-                    {langs}
+                    {Object.keys(images).map( (key, index) => (
+                        <img src={images[key]} key={index} alt={key} className="About-Stack-Img" id={key}/>
+                    ))}
                 </div>
             </section>
         </>
