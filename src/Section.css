@@ -1,7 +1,7 @@
 .Section {
     display: flex;
     flex-direction: column;
-    padding: 0 12%;
+    padding: 125px 12%;
 }
 
 .Section-Heading-Animation {

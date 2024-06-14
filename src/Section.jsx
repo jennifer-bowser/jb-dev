@@ -47,8 +47,8 @@ export default function Section({title}){
     }
 
     return(
-        <section className={`Section ${titleCase(title)}`}>
-            <h1 /*ref={headingRef}*/ id={title}>{title}<span className="Accent-Text">.</span></h1>
+        <section className={`Section ${titleCase(title)}`} id={title}>
+            <h1 /*ref={headingRef}*/>{title}<span className="Accent-Text">.</span></h1>
             {components[title] ?? ""}
         </section>
     )
