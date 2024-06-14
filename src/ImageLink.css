@@ -1,0 +1,13 @@
+.ImageLink{
+    width: 100px;
+    display: block;
+}
+    
+.ImageLink img{
+    width: 100%;
+    transition: var(--transition);
+}
+
+.ImageLink:hover img{
+    transform: scale(1.1);
+}
