@@ -33,9 +33,13 @@ export default function Resume() {
                         </div>
                         <div className="Resume-Heading-Block-Expander"></div>
                     </div>
-                    <h4>Full-Stack Software Engineer II - Lightcast</h4>
-                    <p className="Subtitle">Moscow, ID | May 2022 - Present</p>
+                    <h4>Full-Stack Software Engineer II&nbsp;&nbsp;—&nbsp;&nbsp;Lightcast</h4>
+                    <p className="Subtitle">Moscow, ID | March 2023 — Present</p>
                     <BulletList listItems={workExperienceListItems} />
+                    <div>
+                        <h4>Full-Stack Software Engineer I&nbsp;&nbsp;—&nbsp;&nbsp;Lightcast</h4>
+                        <p className="Subtitle">Moscow, ID | May 2022 — March 2023</p>
+                    </div>
                 </section>
                 <section>
                     <div className="Resume-Heading-Block">
@@ -46,19 +50,19 @@ export default function Resume() {
                         <div className="Resume-Heading-Block-Expander"></div>
                     </div>
                     <section>
-                        <h4>M.S. Software Development - Boston University</h4>
+                        <h4>M.S. Software Development&nbsp;&nbsp;—&nbsp;&nbsp;Boston University</h4>
                         <p className="Subtitle">Seattle, WA | January 2024</p>
                     </section>
                     <section>
-                        <h4>B.S. Software Development -  Western Governors University</h4>
+                        <h4>B.S. Software Development&nbsp;&nbsp;—&nbsp;&nbsp; Western Governors University</h4>
                         <p className="Subtitle">Seattle, WA | April 2022</p>
                     </section>
                     <section>
-                        <h4>B.A. Biology - Pepperdine University</h4>
+                        <h4>B.A. Biology&nbsp;&nbsp;—&nbsp;&nbsp;Pepperdine University</h4>
                         <p className="Subtitle">Malibu, CA | May 2017</p>
                     </section>
                 </section>
-                <section>
+                <section className="Resume-Skills-Section">
                     <div className="Resume-Heading-Block">
                         <div>
                             <h3>Skills</h3>
