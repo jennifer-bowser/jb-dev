@@ -17,3 +17,17 @@
     height: 100%;
     max-height: 600px;
 }
+
+#Splashbox-RectangleCircleOutline{
+    width: 100px;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+#Splashbox-CircleOutlineSolid{
+    width: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}

@@ -1,4 +1,5 @@
 import BulletList from "./BulletList";
+import sidwaysArrow from "./assets/flourishes/sideways-arrow.svg";
 import "./Resume.css";
 
 export default function Resume() {
@@ -23,6 +24,7 @@ export default function Resume() {
 
     return (
         <>
+            <img src={sidwaysArrow} id="Resume-SidewaysArrow"></img>
             <a className="Resume-PDF-Link Subtitle" href="src\assets\Jennifer-Bowser-Resume.pdf" target="_blank">view as pdf<img src="src\assets\open-new-tab-icon.svg" width="12px" /></a>
             <div className="Dropshadow-Box" >
                 <section>
