@@ -13,9 +13,9 @@ import html from "./assets/tech-logos/HTML-logo.svg";
 export default {
     "JavaScript": js ,
     "Node" : node,
+    "React": react,
     "Python": python,
     "Java": java,
-    "React": react,
     "PHP": php,
     "SQL": sql,
     "MongoDB": mongoDB,

@@ -1,4 +1,5 @@
 import images from "./TechImages";
+import ImageTile from "./ImageTile";
 import "./About.css";
 
 export default function About() {
@@ -16,8 +17,8 @@ export default function About() {
                 <h2>my stack<span className="Accent-Text">:</span></h2>
                 <p>Here are a few technologies I&apos;m enjoying right now</p>
                 <div className="Dropshadow-Box">
-                    {Object.keys(images).map( (key, index) => (
-                        <img src={images[key]} key={index} alt={key} className="About-Stack-Img" id={key}/>
+                    {Object.keys(images).map( (key) => (
+                        <ImageTile altText={key} imgSrc={images[key]} />
                     ))}
                 </div>
             </section>
