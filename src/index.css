@@ -16,6 +16,8 @@
 
     /* Misc */
     --transition: 0.25s ease-in-out;
+    --box-shadow: 10px 10px 0px var(--accent-color);
+    --border: 2px solid var(--contrast-color);
 }
 
 * {
@@ -81,8 +83,8 @@ h4 {
 }
 
 .Dropshadow-Box {
-    border: 2px solid var(--contrast-color);
-    box-shadow: 10px 10px 0px var(--accent-color);
+    border: var(--border);
+    box-shadow: var(--box-shadow);
 }
 
 .Bold {

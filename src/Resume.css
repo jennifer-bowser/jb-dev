@@ -6,6 +6,11 @@
     align-self: flex-start;
 }
 
+#Resume-SidewaysArrow{
+    width: 300px;
+    margin: -20px auto 0 110px;
+}
+
 .Resume-PDF-Link {
     margin-bottom: 15px;
     text-decoration: 3px solid underline var(--accent-color);

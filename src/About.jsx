@@ -1,5 +1,6 @@
 import images from "./TechImages";
 import ImageTile from "./ImageTile";
+import jointedDownArrow from "./assets/flourishes/jointed-down-arrow.svg";
 import "./About.css";
 
 export default function About() {
@@ -13,6 +14,7 @@ export default function About() {
                 obtained a B.S. in Software Development, and also recently finished a Masters of Science
                 in Software Development at Boston University. I&apos;m  looking forward to working with you!
             </p>
+            <img src={jointedDownArrow} id="About-JointedDownArrow"></img>
             <section className="About-Stack">
                 <h2>my stack<span className="Accent-Text">:</span></h2>
                 <p>Here are a few technologies I&apos;m enjoying right now</p>
