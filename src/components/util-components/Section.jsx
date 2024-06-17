@@ -1,13 +1,12 @@
 import "./Section.css";
-import About from "./section-contents/About";
-import Resume from "./section-contents/Resume";
-import Contact from "./section-contents/Contact";
-import { titleCase } from "../Util";
-import "./Section.css";
+import About from "../section-contents/About";
+import Resume from "../section-contents/Resume";
+import Contact from "../section-contents/Contact";
+import { titleCase } from "../../Util";
 import { useEffect, useRef } from "react";
 
 export default function Section({ title }) {
-
+    
     /* --- Begin Heading Slide-In Animation --- */
     const headingRef = useRef(null);
 

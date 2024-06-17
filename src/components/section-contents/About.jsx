@@ -1,5 +1,5 @@
 import images from "../../TechImages";
-import ImageTile from "../ImageTile";
+import ImageTile from "../util-components/ImageTile";
 import jointedDownArrow from "../../assets/flourishes/jointed-down-arrow.svg";
 import "./About.css";
 

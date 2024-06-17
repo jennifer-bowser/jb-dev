@@ -1,4 +1,4 @@
-import ImageLink from "../ImageLink";
+import ImageLink from "../util-components/ImageLink";
 import githubLogo from "../../assets/contact-link-logos/github-logo.png";
 import linkedinLogo from "../../assets/contact-link-logos/linkedin-logo.svg";
 import "./Contact.css";

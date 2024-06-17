@@ -1,4 +1,4 @@
-import BulletList from "../BulletList";
+import BulletList from "../util-components/BulletList";
 import sidwaysArrow from "../../assets/flourishes/sideways-arrow.svg";
 import "./Resume.css";
 

@@ -1,6 +1,6 @@
 import Navbar from './components/navigation/Navbar'
 import Splashbox from './components/splashbox-components/Splashbox'
-import Section from './components/Section'
+import Section from './components/util-components/Section.jsx'
 
 function App() {
 
