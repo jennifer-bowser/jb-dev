@@ -7,6 +7,8 @@ import "./Section.css";
 import { useEffect, useRef } from "react";
 
 export default function Section({ title }) {
+
+    /* --- Begin Heading Slide-In Animation --- */
     const headingRef = useRef(null);
 
     const observerFunction = (entries) => {
@@ -15,11 +17,6 @@ export default function Section({ title }) {
         const classList = entry.target.classList;
         const animationClassName = "Section-Heading-Animation";
 
-        // entry.isIntersecting
-        //     ? entry.target.classList.add("Section-Heading-Animation")
-        //     : entry.target.classList.remove("Section-Heading-Animation");
-
-        // entry.target.classList.toggle("Section-Heading-Animation");
         if (entry.isIntersecting && !classList.contains(animationClassName)) {
             classList.add(animationClassName);
         }
@@ -27,7 +24,6 @@ export default function Section({ title }) {
             classList.remove(animationClassName);
         }
     }
-
 
     useEffect(() => {
         const options = {
@@ -45,6 +41,8 @@ export default function Section({ title }) {
             if (headingRefCurrent) observer.unobserve(headingRefCurrent);
         }
     }, [headingRef])
+
+    /* --- End Heading Slide-In Animation --- */
 
     const components = {
         "about": <About />,
