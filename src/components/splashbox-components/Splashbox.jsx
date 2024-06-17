@@ -1,8 +1,8 @@
 import Separator from "./Separator";
 import TypingLetters from "./TypingLetters";
 import SplashboxBulletList from "./SplashBoxBulletList";
-import rectangleCircleOutline from "../assets/flourishes/rectangle-circle-outline.svg";
-import circleOutlineSolid from "../assets/flourishes/circle-outline-solid.svg";
+import rectangleCircleOutline from "../../assets/flourishes/rectangle-circle-outline.svg";
+import circleOutlineSolid from "../../assets/flourishes/circle-outline-solid.svg";
 import "./Splashbox.css";
 
 export default function Splashbox(){

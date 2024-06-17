@@ -1,5 +1,5 @@
 import Navbar from './components/navigation/Navbar'
-import Splashbox from './components/Splashbox'
+import Splashbox from './components/splashbox-components/Splashbox'
 import Section from './components/Section'
 
 function App() {
