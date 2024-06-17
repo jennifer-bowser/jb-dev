@@ -1,5 +1,5 @@
 import BulletList from "./BulletList";
-import sidwaysArrow from "./assets/flourishes/sideways-arrow.svg";
+import sidwaysArrow from "../assets/flourishes/sideways-arrow.svg";
 import "./Resume.css";
 
 export default function Resume() {

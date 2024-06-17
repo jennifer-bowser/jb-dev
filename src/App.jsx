@@ -1,6 +1,6 @@
-import Navbar from './Navbar'
-import Splashbox from './Splashbox'
-import Section from './Section'
+import Navbar from './components/Navbar'
+import Splashbox from './components/Splashbox'
+import Section from './components/Section'
 
 function App() {
 
