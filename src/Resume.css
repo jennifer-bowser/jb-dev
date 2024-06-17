@@ -48,7 +48,7 @@
 }
 
 .Resume h4 {
-    margin: 15px 0 5px 0;
+    margin: 15px 0 7px 0;
 }
 
 .Resume-Heading-Block {
@@ -67,14 +67,10 @@
 }
 
 .Resume .Dropshadow-Box .Subtitle {
-    font-size: 0.8em;
+    font-size: 0.9em;
     margin: 0;
 }
 
 .Resume ul {
     margin-top: 10px;
-}
-
-.Resume li {
-    font-size: 0.95em;
 }
