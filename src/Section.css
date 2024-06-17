@@ -4,6 +4,10 @@
     padding: 125px 12%;
 }
 
+.Section h1{
+    opacity: 0;
+}
+
 .Section-Heading-Animation {
     animation-name: slideIn;
     animation-duration: 0.8s;
