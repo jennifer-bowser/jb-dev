@@ -1,6 +1,6 @@
-import ImageLink from "./ImageLink";
-import githubLogo from "../assets/contact-link-logos/github-logo.png";
-import linkedinLogo from "../assets/contact-link-logos/linkedin-logo.svg";
+import ImageLink from "../ImageLink";
+import githubLogo from "../../assets/contact-link-logos/github-logo.png";
+import linkedinLogo from "../../assets/contact-link-logos/linkedin-logo.svg";
 import "./Contact.css";
 
 export default function Contact(){

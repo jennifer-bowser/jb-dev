@@ -1,6 +1,6 @@
-import images from "../TechImages";
-import ImageTile from "./ImageTile";
-import jointedDownArrow from "../assets/flourishes/jointed-down-arrow.svg";
+import images from "../../TechImages";
+import ImageTile from "../ImageTile";
+import jointedDownArrow from "../../assets/flourishes/jointed-down-arrow.svg";
 import "./About.css";
 
 export default function About() {
@@ -20,7 +20,7 @@ export default function About() {
                 <p>Here are a few technologies I&apos;m enjoying right now</p>
                 <div className="Dropshadow-Box">
                     {Object.keys(images).map( (key) => (
-                        <ImageTile altText={key} imgSrc={images[key]} />
+                        <ImageTile altText={key} imgSrc={images[key]} key={key} />
                     ))}
                 </div>
             </section>
