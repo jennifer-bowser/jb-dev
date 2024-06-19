@@ -4,7 +4,7 @@ import Section from './components/util-components/Section.jsx'
 
 function App() {
 
-    const sectionTitles = [
+    const sections = [
         "portfolio",
         "about",
         "resume",
@@ -12,13 +12,13 @@ function App() {
     ];
 
     return (
-    <>
-        <Navbar sectionTitles={sectionTitles}/>
-        <Splashbox />
-        {sectionTitles.map( (sectionTitle, index) => (
-                <Section title={sectionTitle} key={index}/>
-        ))}
-    </>
+        <>
+            <Navbar sections={sections}/>
+            <Splashbox />
+            {sections.map( (sections, index) => (
+                    <Section title={sections} key={index}/>
+            ))}
+        </>
     )
 }
 
