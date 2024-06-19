@@ -26,8 +26,8 @@
     padding: 2px var(--horizontal-padding) 0 var(--horizontal-padding);
 }
 
-.NavMenu a:hover {
-    background-color: var(--accent-color);
+.NavMenu a:hover+.NavMenu-Underline {
+    opacity: 1;
 }
 
 .NavMenu-Underline {
@@ -40,8 +40,4 @@
     transition: opacity var(--transition);
     width: calc(100% - 2 * var(--horizontal-padding));
     z-index: -1;
-}
-
-.NavMenu-Underline-Active {
-    opacity: 1;
 }
