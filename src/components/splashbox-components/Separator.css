@@ -17,7 +17,8 @@
 }
 
 .Separator-Link:hover {
-    font-size: 1em;
+    transform: rotate(180deg) scale(1.1);
+    margin-bottom: 7px;
 }
 
 .Separator-Link .Accent-Text {
