@@ -1,0 +1,12 @@
+.Footer{
+    width: 100%;
+    background-color: var(--contrast-color);
+    height: 75px;
+    color: var(--neutral-color);
+    font-family: var(--mono-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
