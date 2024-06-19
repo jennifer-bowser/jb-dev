@@ -1,21 +1,6 @@
 .Contact-Links{
     display: flex;
-    border: var(--border);
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 75px;
-    margin: 0 auto 0 0;
-    padding: 75px 100px;
-    position: relative;
-}
-
-.Contact-Links::after{
-    content: "";
-    background-color: var(--accent-color);
-    width: 101%;
-    height: 101%;
-    position: absolute;
-    z-index: -1;
-    top: 10px;
-    left: 10px;
 }

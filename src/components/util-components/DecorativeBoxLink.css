@@ -1,0 +1,21 @@
+.DecorativeBoxLink{
+    display: flex;
+    border: var(--border);
+    justify-content: center;
+    align-items: center;
+    padding: 85px 100px 75px 100px;
+    position: relative;
+    width: 400px;
+    height: 250px;
+}
+
+.DecorativeBoxLink::after{
+    content: "";
+    background-color: var(--accent-color);
+    width: 101%;
+    height: 101%;
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: 10px;
+}
