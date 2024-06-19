@@ -1,0 +1,26 @@
+.BackToTop{
+    align-items: center;
+    background-color: var(--accent-color);
+    box-shadow: 3px 3px 0px gray;
+    border: 1px solid var(--contrast-color);
+    border-radius: 50%;
+    bottom: 30px;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    position: fixed;
+    right: 40px;
+    transition: var(--transition);
+    width: 60px;
+}
+
+.BackToTop:hover,
+.BackToTop:focus{
+    box-shadow: 5px 5px 0px lightgray;
+    transform: scale(1.1);
+}
+
+.BackToTop img{
+    object-fit: contain;
+    width: 100%;
+}
