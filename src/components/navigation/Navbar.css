@@ -22,10 +22,7 @@
     top: 79px;
 }
 
-.Navbar-Logolink {
-    transition: var(--transition);
-}
-
-.Navbar-Logolink:hover {
-    transform: scale(1.05);
+/* Logo */
+.Navbar img{
+    align-self: center;
 }
