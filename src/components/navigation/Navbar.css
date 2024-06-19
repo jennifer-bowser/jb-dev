@@ -6,7 +6,9 @@
     height: 82px;
     justify-content: space-between;
     padding: 20px 30px 5px 30px;
+    position: absolute;
     top: 0px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -19,7 +21,6 @@
     left: 0;
     top: 79px;
 }
-
 
 .Navbar-Logolink {
     transition: var(--transition);

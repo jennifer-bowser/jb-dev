@@ -1,12 +1,12 @@
 .Splashbox {
     align-items: center;
     display: flex;
-    /* height of NavBar */
-    height: calc(100vh - 82px);
+    height: 100vh;
     justify-content: center;
     width: 100%;
     margin: 0 auto;
-    padding: 100px 10%;
+    /* 82px = height of NavBar */
+    padding: 82px 10% 100px 10%;
 }
 
 .Splashbox-Content-Wrapper{
