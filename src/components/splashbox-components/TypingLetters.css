@@ -68,3 +68,19 @@
     width: 100%;
     z-index: -1;
 }
+
+@media (max-width: 1540px ) {
+    .TypingLetters-Text {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 1180px){
+    .TypingLetters{
+        height: auto;
+    }
+
+    .TypingLetters-Text{
+        font-size: 3em;
+    }
+}

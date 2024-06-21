@@ -30,3 +30,9 @@
     font-family: var(--mono-font);
     font-weight: 200;
 }
+
+@media (max-width: 1540px){
+    .SplashboxBulletList .BulletList {
+        font-size: 1.5em;
+    }
+}

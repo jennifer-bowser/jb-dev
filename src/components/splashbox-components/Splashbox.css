@@ -31,3 +31,14 @@
     bottom: 100px;
     left: 50px;
 }
+
+@media (max-width: 1180px){
+    .Splashbox-Content-Wrapper{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    #Splashbox-CircleOutlineSolid{
+        bottom: -50px;
+    }
+}
