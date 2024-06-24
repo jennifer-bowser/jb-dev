@@ -9,17 +9,18 @@
 #Resume-SidewaysArrow{
     width: 300px;
     margin: -20px auto 0 110px;
+    transition: var(--transition);
 }
 
 .Resume-PDF-Link {
-    margin-bottom: 15px;
+    margin: -25px 0 25px 0;
     text-decoration: 3px solid underline var(--accent-color);
-    transition: var(--transition);
+    transition: hover var(--transition);
 }
 
 .Resume-PDF-Link img {
     margin-left: 10px;
-    transition: var(--transition);
+    transition: hover var(--transition);
 }
 
 .Resume-PDF-Link:hover {
@@ -73,4 +74,16 @@
 
 .Resume ul {
     margin-top: 10px;
+}
+
+@media (max-width: 1400px){
+    #Resume-SidewaysArrow{
+        width: 200px;
+    }
+}
+
+@media (max-width: 1150px){
+    #Resume-SidewaysArrow{
+        opacity: 0;
+    }
 }
