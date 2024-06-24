@@ -41,6 +41,51 @@
     width: 250px;
 }
 
+#Node{
+    width: 80%;
+}
+
+#React{
+    height: 75%;
+}
+
+#Python{
+    width: 90%;
+}
+
+#Java{
+    height: 95%;
+}
+
+#PHP{
+    width: 60%;
+}
+
+#SQL{
+    width: 70%;
+}
+
+#Express{
+    width: 75%;
+}
+
+#CSS,
+#HTML{
+    height: 65%;
+}
+
+@media (max-width: 900px){
+    .About-Stack .Dropshadow-Box{
+        max-width: none;
+        width: auto;
+        padding: 20px;
+    }
+
+    .About .Dropshadow-Box .ImageTile{
+        height: 100px;
+        width: 170px;
+    }
+}
 
 @media (max-width: 600px){
     #About-JointedDownArrow{

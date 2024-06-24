@@ -1,48 +1,14 @@
 .ImageTile{
-    width: 225px;
-    height: 150px;
-    /* border: 1px solid black; */
-    padding: 10px;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    padding: 10px;
+    width: 225px;
 }
 
 .ImageTile img{
-    width: 100%;
     height: 100%;
     object-fit: contain;
-}
-
-#Node{
-    width: 80%;
-}
-
-#React{
-    height: 75%;
-}
-
-#Python{
-    width: 90%;
-}
-
-#Java{
-    height: 95%;
-}
-
-#PHP{
-    width: 60%;
-}
-
-#SQL{
-    width: 70%;
-}
-
-#Express{
-    width: 75%;
-}
-
-#CSS,
-#HTML{
-    height: 65%;
+    width: 100%;
 }
