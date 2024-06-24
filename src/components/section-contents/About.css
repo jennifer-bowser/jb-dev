@@ -25,17 +25,27 @@
 }
 
 .About-Stack .Dropshadow-Box{
-    max-width: 750px;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: 750px;
     
 }
 
 #About-JointedDownArrow{
-    width: 250px;
     margin: 0 auto;
     position: relative;
     right: 100px;
+    transition: var(--transition);
+    width: 250px;
+}
+
+
+@media (max-width: 600px){
+    #About-JointedDownArrow{
+        margin: 0;
+        position: static;
+        width: 50%;
+    }
 }
