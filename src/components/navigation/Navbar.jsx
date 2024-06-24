@@ -28,7 +28,7 @@ export default function Navbar({ sections }) {
 
     return (
         <div className="Navbar">
-            <img src={useMiniLogo ? miniLogo : fullLogo} className={useMiniLogo ? "MiniLogo" : "FullLogo"} height="75"/>
+            <img src={useMiniLogo ? miniLogo : fullLogo} className={useMiniLogo ? "MiniLogo" : "FullLogo"} height="40"/>
             <NavMenu sections={sections} />
         </div>
     )

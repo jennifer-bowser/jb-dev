@@ -1,15 +1,14 @@
 .NavMenu {
-    --horizontal-padding: 7px;
-
     display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     margin: 0;
+    gap: 30px;
 }
 
 .NavMenu li {
-    margin-right: 20px;
-    position: relative;
     /* Allows .NavMenu-Underline to be absolutely positioned */
+    position: relative;
 }
 
 .NavMenu li:last-of-type {
@@ -22,8 +21,10 @@
     letter-spacing: -0.5px;
     font-size: 1.3em;
     text-decoration: none;
-    transition: background-color var(--transition);
-    padding: 2px var(--horizontal-padding) 0 var(--horizontal-padding);
+}
+
+.NavMenu a:last-of-type{
+    padding-right: 0px;
 }
 
 .NavMenu a:hover+.NavMenu-Underline {
@@ -34,10 +35,19 @@
     background-color: var(--accent-color);
     bottom: 2px;
     height: 8px;
-    left: 7px;
     opacity: 0;
     position: absolute;
     transition: opacity var(--transition);
-    width: calc(100% - 2 * var(--horizontal-padding));
+    width: 100%;
     z-index: -1;
+}
+
+@media (max-width: 500px){
+    .NavMenu{
+        gap: 15px;
+    }
+    
+    .NavMenu a {
+        font-size: 1.2em;
+    }
 }

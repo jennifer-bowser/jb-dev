@@ -24,17 +24,16 @@
     top: 79px;
 }
 
-/* Logo */
-.Navbar img{
-    align-self: center;
-}
-
 .Navbar .FullLogo{
-    width: 275px;
+    width: 270px;
 }
 
 .Navbar .MiniLogo{
-    max-width: 75px;
-    width: 75px;
-    margin-bottom: 10px;
+    width: 50px;
+}
+
+@media (max-width: 500px){
+    .Navbar{
+        padding: 10px 15px 5px 15px;
+    }
 }
