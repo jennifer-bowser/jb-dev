@@ -2,7 +2,7 @@
     align-items: center;
     background-color: var(--accent-color);
     box-shadow: 3px 3px 0px gray;
-    border: 1px solid var(--contrast-color);
+    border: 2px solid var(--contrast-color);
     border-radius: 50%;
     bottom: 30px;
     display: flex;

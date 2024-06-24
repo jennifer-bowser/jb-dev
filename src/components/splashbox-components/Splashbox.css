@@ -6,8 +6,7 @@
     justify-content: center;
     width: 100%;
     /* 82px = height of NavBar */
-    margin-top: 82px;
-    padding: 0 10%;
+    padding: 82px 10% 0 10%;
 }
 
 .Splashbox-Content-Wrapper{
