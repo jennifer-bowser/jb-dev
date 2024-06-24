@@ -1,12 +1,13 @@
 .Splashbox {
     align-items: center;
     display: flex;
-    height: 100vh;
+    /* 82px = height of NavBar */
+    height: calc(100vh - 82px);
     justify-content: center;
     width: 100%;
-    margin: 0 auto;
     /* 82px = height of NavBar */
-    padding: 82px 10% 100px 10%;
+    margin-top: 82px;
+    padding: 0 10%;
 }
 
 .Splashbox-Content-Wrapper{
@@ -18,27 +19,62 @@
     max-height: 600px;
 }
 
-#Splashbox-RectangleCircleOutline{
-    width: 100px;
+.Splashbox-Row2{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+}
+
+.Splashbox-Flourish{
     position: absolute;
+    width: 100px;
+}
+
+#Splashbox-RectangleCircleOutline{
     top: 150px;
     right: 50px;
 }
 
 #Splashbox-CircleOutlineSolid{
-    width: 100px;
-    position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     left: 50px;
 }
 
 @media (max-width: 1180px){
     .Splashbox-Content-Wrapper{
         flex-wrap: wrap;
-        justify-content: flex-end;
+    }
+
+    .Splashbox-Row2{
+        justify-content: center;
+        height: 450px;
+    }
+}
+
+@media (max-width: 775px){
+    .Splashbox-Content-Wrapper{
+        height: auto;
+    }
+
+    .Splashbox-Row2{
+        justify-content: center;
+        height: 40vh;
+        margin-top: 40px;
+    }
+
+    .Splashbox-Flourish{
+        width: 75px;
+    }
+
+    #Splashbox-RectangleCircleOutline{
+        top: 125px;
+        right: 30px;
     }
 
     #Splashbox-CircleOutlineSolid{
-        bottom: -50px;
+        bottom: 10px;
     }
 }

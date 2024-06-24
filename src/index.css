@@ -35,6 +35,12 @@ body {
     font-weight: 400;
 }
 
+@media(max-width: 750px){
+    body{
+        font-size: 10pt;
+    }
+}
+
 a {
     color: var(--contrast-color);
     text-decoration: none;

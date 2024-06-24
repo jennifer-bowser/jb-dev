@@ -36,3 +36,9 @@
         font-size: 1.5em;
     }
 }
+
+@media (max-width: 775px){
+    .SplashboxBulletList .BulletList {
+        font-size: 1.25em;
+    }
+}

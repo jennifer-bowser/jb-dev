@@ -8,13 +8,15 @@ import "./Splashbox.css";
 export default function Splashbox(){
     return (
         <section className="Splashbox" id="home">
-            <img id="Splashbox-RectangleCircleOutline" src={rectangleCircleOutline}/>
+            <img id="Splashbox-RectangleCircleOutline" className="Splashbox-Flourish" src={rectangleCircleOutline}/>
             <div className="Splashbox-Content-Wrapper">
                 <TypingLetters text={"hi, i'm jennifer"}/>
-                <Separator />
-                <SplashboxBulletList />
+                <div className="Splashbox-Row2">
+                    <Separator />
+                    <SplashboxBulletList />
+                </div>
             </div>
-            <img id="Splashbox-CircleOutlineSolid" src={circleOutlineSolid}/>
+            <img id="Splashbox-CircleOutlineSolid" className="Splashbox-Flourish" src={circleOutlineSolid}/>
         </section>
     )
 }
