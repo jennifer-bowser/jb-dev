@@ -7,7 +7,7 @@ import Section from './components/util-components/Section.jsx'
 function App() {
 
     const sections = [
-        // "portfolio",
+        "portfolio",
         "about",
         "resume",
         "contact"

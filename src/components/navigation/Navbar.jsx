@@ -6,12 +6,17 @@ import "./Navbar.css"
 
 export default function Navbar({ sections }) {
     // used to switch to miniLogo if window gets too small
-    const[windowWidth, setWindowWidth] = useState(window.innerWidth);
-    let useMiniLogo = windowWidth <= 850;
+    const MIN_WIDTH = 750;
+    const [useMiniLogo, setUseMiniLogo] = useState(window.innerWidth <= MIN_WIDTH);
 
     useEffect( () => {
         function handleResize() {
-            setWindowWidth(window.innerWidth);   
+            if(window.innerWidth <= MIN_WIDTH && !useMiniLogo){
+                setUseMiniLogo(true);
+            }
+            else if(window.innerWidth > MIN_WIDTH & useMiniLogo){
+                setUseMiniLogo(false);
+            }
         }
 
         window.addEventListener('resize', handleResize)
