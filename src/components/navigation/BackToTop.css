@@ -13,6 +13,7 @@
     right: 40px;
     transition: var(--transition);
     width: 60px;
+    z-index: 2;
 }
 
 .BackToTop-Visible{

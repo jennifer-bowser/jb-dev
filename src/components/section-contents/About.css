@@ -30,7 +30,6 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 750px;
-    
 }
 
 #About-JointedDownArrow{
@@ -76,7 +75,6 @@
 
 @media (max-width: 900px){
     .About-Stack .Dropshadow-Box{
-        max-width: none;
         width: auto;
         padding: 20px;
     }
