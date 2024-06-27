@@ -24,16 +24,31 @@
     top: 79px;
 }
 
-.Navbar .FullLogo{
+.Navbar img{
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.Navbar-FullLogo{
     width: 270px;
+    transition: var(--transition);
 }
 
-.Navbar .MiniLogo{
-    width: 50px;
+@media (max-width: 750px){
+    .Navbar-FullLogo{
+        width: 175px;
+    }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     .Navbar{
         padding: 10px 15px 5px 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .Navbar-Spacer{
+        flex-basis: 100%;
+        height: 0;
     }
 }
