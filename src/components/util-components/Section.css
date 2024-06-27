@@ -27,3 +27,13 @@
         transform: translateY(0px);
     }
 }
+
+@media (max-width: 900px){
+    .Section{
+        padding: 70px 12%;
+    }
+
+    .Section h1{
+        margin-bottom: 20px;
+    }
+}
