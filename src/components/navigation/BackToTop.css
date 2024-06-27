@@ -1,18 +1,21 @@
 .BackToTop{
+    --diameter: 60px;
+    --offset: 40px;
+
     align-items: center;
     background-color: var(--accent-color);
     box-shadow: 3px 3px 0px gray;
     border: 2px solid var(--contrast-color);
     border-radius: 50%;
-    bottom: 30px;
+    bottom: var(--offset);
     display: flex;
-    height: 60px;
+    height: var(--diameter);
     justify-content: center;
     position: fixed;
     padding: 15px;
-    right: 40px;
+    right: var(--offset);
     transition: var(--transition);
-    width: 60px;
+    width: var(--diameter);
     z-index: 2;
 }
 
@@ -34,4 +37,26 @@
 
 .BackToTop img{
     width: 100%;
+}
+
+@media (max-width: 900px){
+    .BackToTop{
+       --diameter: 50px;
+       --offset: 15px;
+
+       padding: 10px;
+    }
+}
+
+@media (max-width: 700px){
+    .BackToTop{
+        --diameter: 40px;
+        --offset: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    .BackToTop{
+        --offset: 5px;
+    }
 }
