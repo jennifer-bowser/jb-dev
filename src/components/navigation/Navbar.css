@@ -43,8 +43,14 @@
 @media (max-width: 600px){
     .Navbar{
         padding: 10px 15px 5px 15px;
-        justify-content: center;
+        justify-content: flex-end;
         flex-wrap: wrap;
+    }
+
+    .Navbar-FullLogo{
+        position: absolute;
+        top: 10px;
+        left: 15px;
     }
 
     .Navbar-Spacer{
