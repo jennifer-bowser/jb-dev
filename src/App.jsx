@@ -17,8 +17,8 @@ function App() {
             <Navbar sections={sections}/>
             <Splashbox />
             <BackToTop />
-            {sections.map( (sections, index) => (
-                    <Section title={sections} key={index}/>
+            {sections.map( (section, index) => (
+                    <Section title={section} key={index}/>
             ))}
             <Footer />
         </>
