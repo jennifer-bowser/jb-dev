@@ -99,13 +99,9 @@ h4 {
 }
 
 .Visible{
-    transform: scale(1);
-    transition: var(--transition);
-    pointer-events: unset;
+    display: inherit;
 }
 
 .Invisible{
-    transform: scale(0);
-    transition: var(--transition);
-    pointer-events: none;
+    display: none;
 }

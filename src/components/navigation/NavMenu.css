@@ -44,8 +44,12 @@
     z-index: -1;
 }
 
-.Navbar .Invisible{
+.NavMenu.Popout{
+    background-color: var(--neutral-color);
+    flex-direction: column;
+    padding: 10px;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 15px;
+    top: 15px;
+    z-index: 1;
 }

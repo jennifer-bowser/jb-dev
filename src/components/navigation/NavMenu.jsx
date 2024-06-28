@@ -46,7 +46,7 @@ export default function NavMenu({sections}){
     return (
         <>
             <img src={menuIcon} className={"MenuIcon " + (isNarrowWidth ? "Visible" : "Invisible")} onClick={handleMenuButtonClick} width="40"/>
-            <ul className={"NavMenu" + (isNarrowWidth ? " Popout" : " Full") + (showNavMenu ? " Visible" : " Invisible")}>
+            <ul className={"NavMenu" + (isNarrowWidth ? " Popout Dropshadow-Box" : " Full") + (showNavMenu ? " Visible" : " Invisible")}>
                 {sections.map( (section, index) => (
                     <li key={index}>
                         <a href={`#${section}`}>{section}</a>
