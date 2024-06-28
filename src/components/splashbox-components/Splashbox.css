@@ -54,6 +54,12 @@
     }
 }
 
+@media (max-width: 900px){
+    .Splashbox{
+        margin-bottom: 100px;
+    }
+}
+
 @media (max-width: 775px){
     .Splashbox-Content-Wrapper{
         height: auto;
@@ -76,5 +82,6 @@
 
     #Splashbox-CircleOutlineSolid{
         bottom: 10px;
+        left: 20px;
     }
 }
