@@ -1,6 +1,6 @@
 import "./NavMenu.css";
 import menuIcon from "../../assets/icons/menuIcon.svg";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 export default function NavMenu({sections}){
     /*--  Toggle whether full menu vs menu button is visible --*/
@@ -28,24 +28,31 @@ export default function NavMenu({sections}){
 
     /*-- Handles showing/hiding the NavMenu vs menu button --*/
     const [showNavMenu, setShowNavMenu] = useState(!isNarrowWidth);
+    const menuRef = useRef(null);
 
     const handleMenuButtonClick = () => {
         setShowNavMenu(true);
     }
 
-    /* 
-        case 1: NOT narrow width
-            > Show full menu
+    useEffect( () => {
+        const handleClickOutside = (event) => {
+            const menuButton = menuRef.current;
         
-        case 2: Narrow width, menu button NOT clicked
-            > Show menu icon
+            if (!menuButton || !menuButton.contains(event.target)) {
+                setShowNavMenu(false);
+            }
+        }
 
-        case 3: Narrow width, menu button IS clicked
-            > Show popout menu
-     */
+        document.addEventListener('click', handleClickOutside, true);
+
+        return _ => {
+            document.removeEventListener('click', handleClickOutside, true);
+        }
+    });
+    
     return (
         <>
-            <img src={menuIcon} className={"MenuIcon " + (isNarrowWidth ? "Visible" : "Invisible")} onClick={handleMenuButtonClick} width="40"/>
+            <img src={menuIcon} className={"MenuIcon " + (isNarrowWidth ? "Visible" : "Invisible")} onClick={handleMenuButtonClick} ref={menuRef} width="40"/>
             <ul className={"NavMenu" + (isNarrowWidth ? " Popout Dropshadow-Box" : " Full") + (showNavMenu ? " Visible" : " Invisible")}>
                 {sections.map( (section, index) => (
                     <li key={index}>
