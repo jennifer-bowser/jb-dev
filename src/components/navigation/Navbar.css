@@ -24,37 +24,22 @@
     top: 79px;
 }
 
-.Navbar img{
+.Navbar-FullLogo{
     height: auto;
     margin-bottom: 5px;
-}
-
-.Navbar-FullLogo{
     width: 270px;
     transition: var(--transition);
 }
 
 @media (max-width: 750px){
     .Navbar-FullLogo{
-        width: 175px;
+        width: 250px;
+        margin-bottom: 0;
     }
-}
 
-@media (max-width: 600px){
     .Navbar{
-        padding: 10px 15px 5px 15px;
-        justify-content: flex-end;
+        padding: 10px 15px;
         flex-wrap: wrap;
-    }
-
-    .Navbar-FullLogo{
-        position: absolute;
-        top: 10px;
-        left: 15px;
-    }
-
-    .Navbar-Spacer{
-        flex-basis: 100%;
-        height: 0;
+        align-items: center;
     }
 }

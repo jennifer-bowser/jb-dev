@@ -44,12 +44,8 @@
     z-index: -1;
 }
 
-@media (max-width: 500px){
-    .NavMenu{
-        gap: 15px;
-    }
-    
-    .NavMenu a {
-        font-size: 1.2em;
-    }
+.Navbar .Invisible{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
