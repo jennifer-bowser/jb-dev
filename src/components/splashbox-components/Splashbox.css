@@ -4,9 +4,11 @@
     /* 82px = height of NavBar */
     height: calc(100vh - 82px);
     justify-content: center;
-    width: 100%;
+    margin: 0 auto;
+    max-width: var(--max-page-width);
     /* 82px = height of NavBar */
     padding: 82px 10% 0 10%;
+    width: 100%;
 }
 
 .Splashbox-Content-Wrapper{

@@ -38,7 +38,7 @@ export default function NavMenu({sections}){
         const handleClickOutside = (event) => {
             const menuButton = menuRef.current;
         
-            if (!menuButton || !menuButton.contains(event.target)) {
+            if (isNarrowWidth && !menuButton.contains(event.target)) {
                 setShowNavMenu(false);
             }
         }
