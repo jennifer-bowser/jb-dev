@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 100%;
-    margin-top: 20%;
 }
 
 .TypingLetters-Text {
@@ -72,13 +70,6 @@
 @media (max-width: 1540px ) {
     .TypingLetters-Text {
         font-size: 3em;
-    }
-}
-
-@media (max-width: 1180px){
-    .TypingLetters{
-        height: auto;
-        margin-top: 0;
     }
 }
 
