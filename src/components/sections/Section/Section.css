@@ -39,3 +39,9 @@
         margin-bottom: 20px;
     }
 }
+
+@media (max-width: 500px){
+    .Section{
+        padding: 70px 5%;
+    }
+}
