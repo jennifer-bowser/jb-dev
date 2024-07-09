@@ -19,7 +19,7 @@ export default function Section({ title }) {
         if (entry.isIntersecting && !classList.contains(animationClassName)) {
             classList.add(animationClassName);
         }
-        else {
+        else if(!entry.isIntersecting) {
             classList.remove(animationClassName);
         }
     }
