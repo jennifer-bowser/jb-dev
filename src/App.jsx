@@ -1,7 +1,7 @@
 import BackToTop from './components/navigation/BackToTop.jsx';
 import Navbar from './components/navigation/Navbar'
-import Footer from './components/section-contents/Footer.jsx';
-import Splashbox from './components/splashbox-components/Splashbox'
+import Footer from './components/section-contents/Footer/Footer.jsx';
+import Splashbox from './components/splashbox-components/Splashbox/Splashbox.jsx'
 import Section from './components/util-components/Section.jsx'
 
 function App() {

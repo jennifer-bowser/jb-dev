@@ -1,4 +1,4 @@
-import BulletList from "../util-components/BulletList";
+import BulletList from "../../util-components/BulletList";
 import "./SplashboxBulletList.css";
 
 export default function SplashboxBulletList(){
