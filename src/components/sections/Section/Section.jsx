@@ -1,8 +1,8 @@
 import "./Section.css";
-import About from "../section-contents/About";
-import Resume from "../section-contents/Resume";
-import Contact from "../section-contents/Contact";
-import { titleCase } from "../../util/Util";
+import About from "../About/About.jsx";
+import Resume from "../Resume/Resume.jsx";
+import Contact from "../Contact/Contact.jsx";
+import { titleCase } from "../../../util/Util";
 import { useEffect, useRef } from "react";
 
 export default function Section({ title }) {

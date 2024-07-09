@@ -1,7 +1,7 @@
-import BulletList from "../util-components/BulletList";
-import sidwaysArrow from "../../assets/flourishes/sideways-arrow.svg";
-import openNewTabIcon from "../../assets/icons/open-new-tab-icon.svg"
 import "./Resume.css";
+import BulletList from "../../util-components/BulletList/BulletList.jsx";
+import sidwaysArrow from "../../../assets/flourishes/sideways-arrow.svg";
+import openNewTabIcon from "../../../assets/icons/open-new-tab-icon.svg"
 
 export default function Resume() {
     const workExperienceListItems = [

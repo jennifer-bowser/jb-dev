@@ -1,5 +1,5 @@
-import NavMenu from "./NavMenu"
-import fullLogo from "../../assets/jb-dev-logos/jb-logo-full.svg";
+import NavMenu from "../NavMenu/NavMenu.jsx"
+import fullLogo from "../../../assets/jb-dev-logos/jb-logo-full.svg";
 import "./Navbar.css"
 
 export default function Navbar({ sections }) {

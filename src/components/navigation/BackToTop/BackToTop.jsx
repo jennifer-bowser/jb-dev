@@ -1,5 +1,5 @@
 import "./BackToTop.css";
-import upArrowIcon from "../../assets/icons/up-arrow-icon.svg";
+import upArrowIcon from "../../../assets/icons/up-arrow-icon.svg";
 import { useEffect, useState } from "react";
 
 export default function BackToTop(){

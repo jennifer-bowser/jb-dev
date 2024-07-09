@@ -1,6 +1,6 @@
-import images from "../../util/TechImages";
-import ImageTile from "../util-components/ImageTile";
-import jointedDownArrow from "../../assets/flourishes/jointed-down-arrow.svg";
+import images from "../../../util/TechImages";
+import ImageTile from "../../util-components/ImageTile/ImageTile.jsx";
+import jointedDownArrow from "../../../assets/flourishes/jointed-down-arrow.svg";
 import "./About.css";
 
 export default function About() {

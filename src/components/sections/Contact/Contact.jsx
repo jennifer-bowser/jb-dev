@@ -1,8 +1,8 @@
-import ImageLink from "../util-components/ImageLink";
-import githubLogo from "../../assets/contact-link-logos/github-logo.png";
-import linkedinLogo from "../../assets/contact-link-logos/linkedin-logo.svg";
 import "./Contact.css";
-import DecorativeBoxLink from "../util-components/DecorativeBoxLink";
+import ImageLink from "../../util-components/ImageLink/ImageLink.jsx";
+import DecorativeBoxLink from "../../util-components/DecorativeBoxLink/DecorativeBoxLink.jsx";
+import githubLogo from "../../../assets/contact-link-logos/github-logo.png";
+import linkedinLogo from "../../../assets/contact-link-logos/linkedin-logo.svg";
 
 export default function Contact(){
     return (

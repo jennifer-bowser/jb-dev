@@ -1,5 +1,5 @@
 import "./NavMenu.css";
-import menuIcon from "../../assets/icons/menuIcon.svg";
+import menuIcon from "../../../assets/icons/menuIcon.svg";
 import { useEffect, useState, useRef } from "react";
 
 export default function NavMenu({sections}){
