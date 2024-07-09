@@ -83,7 +83,7 @@
     }
 
     #Splashbox-CircleOutlineSolid{
-        bottom: -5vh;
+        bottom: calc(0vh - 37.5px); /* 37.5 = radius of img*/
         left: 20px;
     }
 }
