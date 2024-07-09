@@ -18,7 +18,7 @@ function App() {
             <Splashbox />
             <BackToTop />
             {sections.map( (section, index) => (
-                    <Section title={section} key={index}/>
+                <Section title={section} key={index}/>
             ))}
             <Footer />
         </>
