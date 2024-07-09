@@ -17,7 +17,7 @@ export default function About() {
             <img src={jointedDownArrow} id="About-JointedDownArrow"></img>
             <section className="About-Stack">
                 <h2>my stack<span className="Accent-Text">:</span></h2>
-                <p>Here are a few technologies I&apos;m enjoying right now</p>
+                <p>Here are a few technologies I&apos;m enjoying right now &darr;</p>
                 <div className="Dropshadow-Box">
                     {Object.keys(images).map( (key) => (
                         <ImageTile altText={key} imgSrc={images[key]} key={key} />
