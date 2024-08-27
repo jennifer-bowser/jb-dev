@@ -5,18 +5,18 @@ import SplashboxBulletList from "../SplashboxBulletList/SplashboxBulletList.jsx"
 import rectangleCircleOutline from "../../../../assets/flourishes/rectangle-circle-outline.svg";
 import circleOutlineSolid from "../../../../assets/flourishes/circle-outline-solid.svg";
 
-export default function Splashbox(){
+export default function Splashbox({ sections }) {
     return (
         <section className="Splashbox" id="home">
-            <img id="Splashbox-RectangleCircleOutline" className="Splashbox-Flourish" src={rectangleCircleOutline}/>
+            <img id="Splashbox-RectangleCircleOutline" className="Splashbox-Flourish" src={rectangleCircleOutline} />
             <div className="Splashbox-Content-Wrapper">
-                <TypingLetters text={"hi, i'm jennifer"}/>
+                <TypingLetters text={"hi, i'm jennifer"} />
                 <div className="Splashbox-Row2">
-                    <Separator />
+                    <Separator sections={sections} />
                     <SplashboxBulletList />
                 </div>
             </div>
-            <img id="Splashbox-CircleOutlineSolid" className="Splashbox-Flourish" src={circleOutlineSolid}/>
+            <img id="Splashbox-CircleOutlineSolid" className="Splashbox-Flourish" src={circleOutlineSolid} />
         </section>
     )
 }

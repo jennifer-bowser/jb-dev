@@ -14,11 +14,11 @@ function App() {
 
     return (
         <>
-            <Navbar sections={sections}/>
-            <Splashbox />
+            <Navbar sections={sections} />
+            <Splashbox sections={sections} />
             <BackToTop />
-            {sections.map( (section, index) => (
-                <Section title={section} key={index}/>
+            {sections.map((section, index) => (
+                <Section title={section} key={index} />
             ))}
             <Footer />
         </>
