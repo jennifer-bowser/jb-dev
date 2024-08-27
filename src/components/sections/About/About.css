@@ -4,9 +4,10 @@
 }
 
 .About-Intro {
-    font-size: 1.2em;
-    line-height: 2.5em;
-    margin: 0 0 10px 0;
+    font-size: 1.05em;
+    line-height: 2.25em;
+    /* margin-top accounts accounts for line-height making the margin-bottom of the previous H1 appear larger*/
+    margin: -12px 0 10px 0;
 }
 
 .About h2 {
@@ -26,7 +27,7 @@
     text-align: center;
 }
 
-.About-Stack .Dropshadow-Box{
+.About-Stack .Dropshadow-Box {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +35,7 @@
     max-width: 750px;
 }
 
-#About-JointedDownArrow{
+#About-JointedDownArrow {
     margin: 0 auto;
     position: relative;
     right: 100px;
@@ -42,57 +43,57 @@
     width: 250px;
 }
 
-#Node{
+#Node {
     width: 80%;
 }
 
-#React{
+#React {
     height: 75%;
 }
 
-#Python{
+#Python {
     width: 90%;
 }
 
-#Java{
+#Java {
     height: 95%;
 }
 
-#PHP{
+#PHP {
     width: 60%;
 }
 
-#SQL{
+#SQL {
     width: 70%;
 }
 
-#Express{
+#Express {
     width: 75%;
 }
 
 #CSS,
-#HTML{
+#HTML {
     height: 65%;
 }
 
-@media (max-width: 900px){
-    .About-Stack .Dropshadow-Box{
+@media (max-width: 900px) {
+    .About-Stack .Dropshadow-Box {
         width: auto;
         padding: 20px;
     }
 
-    .About .Dropshadow-Box .ImageTile{
+    .About .Dropshadow-Box .ImageTile {
         height: 100px;
         width: 170px;
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
     .About-Intro {
         font-size: 1em;
     }
 
-    #About-JointedDownArrow{
+    #About-JointedDownArrow {
         margin: 0;
         position: static;
         width: 50%;
