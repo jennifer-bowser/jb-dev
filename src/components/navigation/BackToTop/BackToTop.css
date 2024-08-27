@@ -1,6 +1,6 @@
-.BackToTop{
-    --diameter: 60px;
-    --offset: 40px;
+.BackToTop {
+    --diameter: 40px;
+    --offset: 20px;
 
     align-items: center;
     background-color: var(--accent-color);
@@ -12,44 +12,29 @@
     height: var(--diameter);
     justify-content: center;
     position: fixed;
-    padding: 15px;
+    padding: 10px;
     right: var(--offset);
     transition: var(--transition);
     width: var(--diameter);
     z-index: 2;
 }
 
-.BackToTop-Visible{
+.BackToTop-Visible {
     opacity: 1;
     pointer-events: auto;
 }
 
-.BackToTop-Invisible{
+.BackToTop-Invisible {
     opacity: 0;
     pointer-events: none;
 }
 
 .BackToTop:hover,
-.BackToTop:focus{
+.BackToTop:focus {
     box-shadow: 5px 5px 0px rgb(159, 159, 159);
     transform: scale(1.1);
 }
 
-.BackToTop img{
+.BackToTop img {
     width: 100%;
-}
-
-@media (max-width: 900px){
-    .BackToTop{
-       --diameter: 50px;
-       --offset: 15px;
-
-       padding: 10px;
-    }
-}
-
-@media (max-width: 700px){
-    .BackToTop{
-        --diameter: 40px;
-    }
 }
