@@ -91,11 +91,11 @@ export default function Resume() {
                     <ResumeHeader headingText="Education" />
                     <section>
                         <h4>M.S. Software Development&nbsp;&nbsp;—&nbsp;&nbsp;Boston University</h4>
-                        <p className="Subtitle">Seattle, WA | January 2024</p>
+                        <p className="Subtitle">January 2024</p>
                     </section>
                     <section>
                         <h4>B.S. Software Development&nbsp;&nbsp;—&nbsp;&nbsp; Western Governors University</h4>
-                        <p className="Subtitle">Seattle, WA | April 2022</p>
+                        <p className="Subtitle">April 2022</p>
                     </section>
                 </section>
                 <section className="Resume-Skills-Section">
