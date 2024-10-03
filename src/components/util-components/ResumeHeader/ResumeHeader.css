@@ -1,0 +1,15 @@
+.ResumeHeader {
+    display: flex;
+    margin: 0;
+}
+
+.ResumeHeader .Block-Underline {
+    width: 100%;
+    height: 10px;
+    background-color: var(--accent-color);
+    margin-top: -11px;
+}
+
+.ResumeHeader-Block-Expander {
+    flex-grow: 1;
+}

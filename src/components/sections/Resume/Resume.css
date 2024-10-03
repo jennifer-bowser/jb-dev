@@ -52,21 +52,6 @@
     margin: 15px 0 7px 0;
 }
 
-.Resume-Heading-Block {
-    display: flex;
-}
-
-.Resume-Heading-Block-Expander {
-    flex-grow: 1;
-}
-
-.Resume .Block-Underline {
-    width: 100%;
-    height: 10px;
-    background-color: var(--accent-color);
-    margin-top: -11px;
-}
-
 .Resume .Dropshadow-Box .Subtitle {
     font-size: 0.9em;
     margin: 0;

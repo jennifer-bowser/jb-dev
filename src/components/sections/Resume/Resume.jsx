@@ -2,6 +2,7 @@ import "./Resume.css";
 import BulletList from "../../util-components/BulletList/BulletList.jsx";
 import sidwaysArrow from "../../../assets/flourishes/sideways-arrow.svg";
 import openNewTabIcon from "../../../assets/icons/open-new-tab-icon.svg"
+import ResumeHeader from "../../util-components/ResumeHeader/ResumeHeader.jsx";
 
 export default function Resume() {
     const responsabilities = [
@@ -68,13 +69,7 @@ export default function Resume() {
             <a className="Resume-PDF-Link Subtitle" href="src\assets\Jennifer-Bowser-Resume.pdf" target="_blank">view as pdf<img src={openNewTabIcon} width="12px" /></a>
             <div className="Dropshadow-Box" >
                 <section>
-                    <div className="Resume-Heading-Block">
-                        <div>
-                            <h3>Work Experience</h3>
-                            <div className="Block-Underline"></div>
-                        </div>
-                        <div className="Resume-Heading-Block-Expander"></div>
-                    </div>
+                    <ResumeHeader headingText="Work Experience" />
                     <h4>Full-Stack Software Engineer II&nbsp;&nbsp;—&nbsp;&nbsp;Lightcast</h4>
                     <p className="Subtitle">March 2023 — Present</p>
                     <h4>Full-Stack Software Engineer I&nbsp;&nbsp;—&nbsp;&nbsp;Lightcast</h4>
@@ -85,13 +80,7 @@ export default function Resume() {
                     <BulletList listItems={accomplishments} />
                 </section>
                 <section>
-                    <div className="Resume-Heading-Block">
-                        <div>
-                            <h3>Education</h3>
-                            <div className="Block-Underline"></div>
-                        </div>
-                        <div className="Resume-Heading-Block-Expander"></div>
-                    </div>
+                    <ResumeHeader headingText="Education" />
                     <section>
                         <h4>M.S. Software Development&nbsp;&nbsp;—&nbsp;&nbsp;Boston University</h4>
                         <p className="Subtitle">Seattle, WA | January 2024</p>
@@ -102,26 +91,14 @@ export default function Resume() {
                     </section>
                 </section>
                 <section className="Resume-Skills-Section">
-                    <div className="Resume-Heading-Block">
-                        <div>
-                            <h3>Skills</h3>
-                            <div className="Block-Underline"></div>
-                        </div>
-                        <div className="Resume-Heading-Block-Expander"></div>
-                    </div>
+                    <ResumeHeader headingText="Skills" />
                     <h4>Languages & Frameworks</h4>
                     <BulletList listItems={langsAndFrameworks} />
                     <h4>Tools & Technologies</h4>
                     <BulletList listItems={toolsAndTech} />
                 </section>
                 <section>
-                    <div className="Resume-Heading-Block">
-                        <div>
-                            <h3>Certifications</h3>
-                            <div className="Block-Underline"></div>
-                        </div>
-                        <div className="Resume-Heading-Block-Expander"></div>
-                    </div>
+                    <ResumeHeader headingText="Certifications" />
                     <BulletList listItems={certListItems} />
                 </section>
             </div>
