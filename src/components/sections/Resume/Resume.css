@@ -69,7 +69,12 @@
 
 .Resume-Skills-List-Wrapper {
     display: flex;
-    gap: 50px;
+    column-gap: 50px;
+}
+
+.Resume-Skills-List-Wrapper .BulletList {
+    columns: 2;
+    column-gap: 30px;
 }
 
 @media (max-width: 1400px) {
@@ -81,5 +86,11 @@
 @media (max-width: 1150px) {
     #Resume-SidewaysArrow {
         opacity: 0;
+    }
+}
+
+@media (max-width: 525px) {
+    .Resume-Skills-List-Wrapper {
+        flex-direction: column;
     }
 }
