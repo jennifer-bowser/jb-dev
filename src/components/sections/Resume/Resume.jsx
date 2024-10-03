@@ -70,14 +70,22 @@ export default function Resume() {
             <div className="Dropshadow-Box" >
                 <section>
                     <ResumeHeader headingText="Work Experience" />
-                    <h4>Full-Stack Software Engineer II&nbsp;&nbsp;—&nbsp;&nbsp;Lightcast</h4>
-                    <p className="Subtitle">March 2023 — Present</p>
-                    <h4>Full-Stack Software Engineer I&nbsp;&nbsp;—&nbsp;&nbsp;Lightcast</h4>
-                    <p className="Subtitle">May 2022 — March 2023</p>
-                    <h5>Responsabilities:</h5>
-                    <BulletList listItems={responsabilities} />
-                    <h5>Key Accomplishments:</h5>
-                    <BulletList listItems={accomplishments} />
+                    <section>
+                        <h4>Full-Stack Software Engineer II&nbsp;&nbsp;—&nbsp;&nbsp;Lightcast</h4>
+                        <p className="Subtitle">March 2023 — Present</p>
+                    </section>
+                    <section>
+                        <h4>Full-Stack Software Engineer I&nbsp;&nbsp;—&nbsp;&nbsp;Lightcast</h4>
+                        <p className="Subtitle">May 2022 — March 2023</p>
+                    </section>
+                    <section>
+                        <h5>Responsabilities:</h5>
+                        <BulletList listItems={responsabilities} />
+                    </section>
+                    <section>
+                        <h5>Key Accomplishments:</h5>
+                        <BulletList listItems={accomplishments} />
+                    </section>
                 </section>
                 <section>
                     <ResumeHeader headingText="Education" />
@@ -92,10 +100,14 @@ export default function Resume() {
                 </section>
                 <section className="Resume-Skills-Section">
                     <ResumeHeader headingText="Skills" />
-                    <h4>Languages & Frameworks</h4>
-                    <BulletList listItems={langsAndFrameworks} />
-                    <h4>Tools & Technologies</h4>
-                    <BulletList listItems={toolsAndTech} />
+                    <section>
+                        <h4>Languages & Frameworks</h4>
+                        <BulletList listItems={langsAndFrameworks} />
+                    </section>
+                    <section>
+                        <h4>Tools & Technologies</h4>
+                        <BulletList listItems={toolsAndTech} />
+                    </section>
                 </section>
                 <section>
                     <ResumeHeader headingText="Certifications" />
