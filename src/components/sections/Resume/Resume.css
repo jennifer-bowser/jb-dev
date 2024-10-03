@@ -52,6 +52,12 @@
     margin: 15px 0 7px 0;
 }
 
+.Resume h5 {
+    margin: 15px 0 0px 0;
+    font-size: 1em;
+    font-weight: 600;
+}
+
 .Resume .Dropshadow-Box .Subtitle {
     font-size: 0.9em;
     margin: 0;
