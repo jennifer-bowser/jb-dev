@@ -67,6 +67,11 @@
     margin-top: 10px;
 }
 
+.Resume-Skills-List-Wrapper {
+    display: flex;
+    gap: 50px;
+}
+
 @media (max-width: 1400px) {
     #Resume-SidewaysArrow {
         width: 200px;

@@ -100,14 +100,16 @@ export default function Resume() {
                 </section>
                 <section className="Resume-Skills-Section">
                     <ResumeHeader headingText="Skills" />
-                    <section>
-                        <h4>Languages & Frameworks</h4>
-                        <BulletList listItems={langsAndFrameworks} />
-                    </section>
-                    <section>
-                        <h4>Tools & Technologies</h4>
-                        <BulletList listItems={toolsAndTech} />
-                    </section>
+                    <div className="Resume-Skills-List-Wrapper">
+                        <section>
+                            <h4>Languages & Frameworks</h4>
+                            <BulletList listItems={langsAndFrameworks} />
+                        </section>
+                        <section>
+                            <h4>Tools & Technologies</h4>
+                            <BulletList listItems={toolsAndTech} />
+                        </section>
+                    </div>
                 </section>
                 <section>
                     <ResumeHeader headingText="Certifications" />
