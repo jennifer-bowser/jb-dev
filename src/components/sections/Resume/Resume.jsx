@@ -6,7 +6,7 @@ import ResumeHeader from "../../util-components/ResumeHeader/ResumeHeader.jsx";
 
 export default function Resume() {
     const responsabilities = [
-        "Design and build full-stack, interactive, reusable features for Lightcast’s flagship application using JavaScript (React, D3.js) and PHP.",
+        "Design and build full-stack, interactive, reusable features for Lightcast’s flagship SaaS application using JavaScript (React, D3.js) and PHP.",
         "Maintain and optimize labor analytics software by identifying and resolving bugs, implementing feature updates, and optimizing code performance, helping to create a seamless experience for over 30,000 enterprise customers.",
         "Developed robust interfaces to consume and display data from RESTful APIs and relational SQL databases (MySQL, PostgreSQL), optimizing data retrieval and processing for enhanced performance.",
         "Architect technical strategies to translate feature requests into scalable, robust, and easily-maintained solutions, enabling the development of hundreds of new and upgraded features.",
@@ -66,7 +66,7 @@ export default function Resume() {
     return (
         <>
             <img src={sidwaysArrow} id="Resume-SidewaysArrow"></img>
-            <a className="Resume-PDF-Link Subtitle" href="src/assets/Jennifer_Bowser_Resume.pdf" target="_blank" type="application/pdf" rel="alternate" media="print">view as pdf<img src={openNewTabIcon} width="12px" /></a>
+            <a className="Resume-PDF-Link Subtitle" href="src/assets/Jennifer_Bowser_Resume.pdf" target="_blank" type="application/pdf" rel="alternate" media="print">view as pdf<img src={openNewTabIcon} width="11.2px" /></a>
             <div className="Dropshadow-Box" >
                 <section>
                     <ResumeHeader headingText="Work Experience" />

@@ -13,22 +13,18 @@
 }
 
 .Resume-PDF-Link {
+    border-bottom: 3px solid var(--accent-color);
     margin: -25px 0 25px 0;
-    text-decoration: 3px solid underline var(--accent-color);
-    transition: hover var(--transition);
+    transition: var(--transition);
 }
 
 .Resume-PDF-Link img {
-    margin-left: 10px;
-    transition: hover var(--transition);
+    margin-left: 3px;
+    transition: var(--transition);
 }
 
 .Resume-PDF-Link:hover {
-    font-weight: 400;
-}
-
-.Resume-PDF-Link:hover img {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .Resume .Dropshadow-Box {
