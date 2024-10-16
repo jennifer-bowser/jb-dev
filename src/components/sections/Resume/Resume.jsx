@@ -66,7 +66,7 @@ export default function Resume() {
     return (
         <>
             <img src={sidwaysArrow} id="Resume-SidewaysArrow"></img>
-            <a className="Resume-PDF-Link Subtitle" href="src\assets\Jennifer_Bowser_Resume.pdf" target="_blank">view as pdf<img src={openNewTabIcon} width="12px" /></a>
+            <a className="Resume-PDF-Link Subtitle" href="src/assets/Jennifer_Bowser_Resume.pdf" target="_blank" type="application/pdf" rel="alternate" media="print">view as pdf<img src={openNewTabIcon} width="12px" /></a>
             <div className="Dropshadow-Box" >
                 <section>
                     <ResumeHeader headingText="Work Experience" />
