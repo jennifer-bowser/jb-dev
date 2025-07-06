@@ -27,7 +27,7 @@
 .Navbar-FullLogo {
     height: auto;
     margin-bottom: 5px;
-    width: 150px;
+    width: 300px;
     transition: var(--transition);
 }
 
