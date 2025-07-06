@@ -5,9 +5,9 @@
 
 .ResumeHeader .Block-Underline {
     width: 100%;
-    height: 10px;
+    height: 9px;
     background-color: var(--accent-color);
-    margin-top: -11px;
+    margin-top: -12px;
 }
 
 .ResumeHeader-Block-Expander {

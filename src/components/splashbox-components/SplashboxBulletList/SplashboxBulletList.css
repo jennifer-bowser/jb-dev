@@ -23,21 +23,13 @@
     font-weight: 600;
 }
 
-/* accented down arrow */
-.SplashboxBulletList .BulletList li:last-of-type::after {
-    color: var(--accent-color);
-    content: "↓";
-    font-family: var(--mono-font);
-    font-weight: 200;
-}
-
-@media (max-width: 1540px){
+@media (max-width: 1540px) {
     .SplashboxBulletList .BulletList {
         font-size: 1.5em;
     }
 }
 
-@media (max-width: 775px){
+@media (max-width: 775px) {
     .SplashboxBulletList .BulletList {
         font-size: 1.25em;
     }

@@ -14,7 +14,7 @@
 }
 
 /* accent line @ bottom of Navbar*/
-.Navbar::after{
+.Navbar::after {
     content: "";
     width: 100%;
     height: 1px;
@@ -24,20 +24,20 @@
     top: 79px;
 }
 
-.Navbar-FullLogo{
+.Navbar-FullLogo {
     height: auto;
     margin-bottom: 5px;
-    width: 270px;
+    width: 150px;
     transition: var(--transition);
 }
 
-@media (max-width: 750px){
-    .Navbar-FullLogo{
+@media (max-width: 750px) {
+    .Navbar-FullLogo {
         width: 240px;
         margin-bottom: 0;
     }
 
-    .Navbar{
+    .Navbar {
         padding: 10px 15px;
         flex-wrap: wrap;
         align-items: center;

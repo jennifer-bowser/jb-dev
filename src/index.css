@@ -1,6 +1,6 @@
 :root {
     /* Fonts */
-    --base-font: Archivo, Manrope, Helvetica, Arial, sans-serif;
+    --base-font: roc-grotesk, Archivo, Manrope, Helvetica, Arial, sans-serif;
     --mono-font: "Azeret Mono", "Fira Code", monospace;
     font-family: var(--base-font);
     font-weight: 300;
@@ -54,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.2em;
 }
 
@@ -72,10 +72,12 @@ h3 {
     font-size: 1.5em;
 }
 
-h4 {
+h4,
+h5 {
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 500;
 }
+
 
 /*-- Generic Styling Classes --*/
 .Accent-Text {

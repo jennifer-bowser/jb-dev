@@ -50,8 +50,6 @@
 
 .Resume h5 {
     margin: 15px 0 0px 0;
-    font-size: 1em;
-    font-weight: 600;
 }
 
 .Resume .Dropshadow-Box .Subtitle {
@@ -61,6 +59,7 @@
 
 .Resume ul {
     margin-top: 10px;
+    font-size: 13pt;
 }
 
 .Resume-Skills-List-Wrapper {
