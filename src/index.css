@@ -34,6 +34,16 @@ body {
     padding: 0;
     font-size: 12pt;
     font-weight: 300;
+
+    /* WebKit/Blink Browsers */
+    ::selection {
+        background-color: var(--accent-color);
+    }
+
+    /* Gecko Browsers */
+    ::-moz-selection {
+        background: var(--accent-color);
+    }
 }
 
 @media(max-width: 750px) {
