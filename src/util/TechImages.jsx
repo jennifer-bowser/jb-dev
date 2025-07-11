@@ -1,25 +1,18 @@
-import js from "../assets/tech-logos/js-logo.png";
-import node from "../assets/tech-logos/nodeJS-logo.svg";
-import java from "../assets/tech-logos/java-logo.png";
+import js from "../assets/tech-logos/js-logo.svg";
 import react from "../assets/tech-logos/react-logo.svg";
 import python from "../assets/tech-logos/python-logo.png";
-import php from "../assets/tech-logos/php-logo.png";
 import sql from "../assets/tech-logos/SQL-logo.svg";
-import mongoDB from "../assets/tech-logos/mongoDB-logo.svg";
-import express from "../assets/tech-logos/express-logo.png";
-import css from "../assets/tech-logos/CSS-logo.svg";
-import html from "../assets/tech-logos/HTML-logo.svg";
+import typescript from "../assets/tech-logos/typescript-logo.svg"
+import mui from "../assets/tech-logos/material-ui-logo.svg"
+import awsLambda from "../assets/tech-logos/aws-lambda-logo.svg"
+
 
 export default {
-    "JavaScript": js ,
-    "Node" : node,
-    "React": react,
     "Python": python,
-    "Java": java,
-    "PHP": php,
+    "AwsLambda": awsLambda,
     "SQL": sql,
-    "MongoDB": mongoDB,
-    "Express": express,
-    "CSS": css,
-    "HTML": html
+    "Typescript": typescript,
+    "JavaScript": js,
+    "React": react,
+    "MUI": mui,
 }

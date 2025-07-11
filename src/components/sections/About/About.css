@@ -52,38 +52,23 @@
     width: 250px;
 }
 
-#Node {
-    width: 80%;
-}
 
 #React {
-    height: 75%;
+    height: 90%;
 }
 
 #Python {
-    width: 90%;
-}
-
-#Java {
-    height: 95%;
-}
-
-#PHP {
-    width: 60%;
+    width: 100%;
 }
 
 #SQL {
-    width: 70%;
+    width: 65%;
 }
 
-#Express {
-    width: 75%;
+#AwsLambda {
+    width: 80%;
 }
 
-#CSS,
-#HTML {
-    height: 65%;
-}
 
 @media (max-width: 900px) {
     .About-Stack .Dropshadow-Box {
