@@ -9,12 +9,10 @@ export default function About() {
     return (
         <>
             <p className="About-Intro">
-                Hey there! I'm Jennifer – a full-stack software engineer with a love for tackling tricky technical challenges.
-                I originally graduated with a degree in Biology, but one Excel macro led to another and I soon discovered a love
-                of programming! I have since obtained a B.S. in Software Development, and also recently finished a Masters of
-                Science in Software Development at Boston University. In my current role, I build full-stack, interactive data
-                visualizations for a large labor market analytics web application. I love learning new things and finding
-                innovative ways to solve complex problems while improving user experiences. Let’s connect!
+                Hey there! I&apos;m Jennifer – a senior full-stack software engineer. I originally graduated with a degree in Biology, but one Excel macro led to another
+                and I soon discovered a love of programming! I have since obtained a B.S. in Software Development, and also recently finished a Masters of Science in
+                Software Development at Boston University. I now combine my backgrounds in both software engineering and biology in my current role at Nationwide
+                Children&apos;s Hospital in the Abigail Wexner Research Institute, where I build full-stack applications for genomic variant analysis. Let’s connect!
             </p>
             <img src={jointedDownArrow} id="About-JointedDownArrow"></img>
             <img src={horizontalLines} id="Horizontal-Lines-Flourish"></img>
@@ -25,6 +23,7 @@ export default function About() {
                     {Object.keys(techImages).map((imageName) => (
                         <ImageTile altText={imageName} imgSrc={techImages[imageName]} key={imageName} />
                     ))}
+                    <p>There’s more where this came from — check out my resume for my full tech toolkit!</p>
                 </div>
             </section>
         </>

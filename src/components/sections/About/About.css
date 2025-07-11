@@ -30,7 +30,7 @@
 }
 
 .About-Stack p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 1.4em;
     margin: 20px 0;
     text-align: center;
@@ -42,6 +42,11 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 750px;
+}
+
+.About-Stack .Dropshadow-Box p {
+    font-size: 1em;
+    margin: 0 30px 30px 30px;
 }
 
 #About-JointedDownArrow {
