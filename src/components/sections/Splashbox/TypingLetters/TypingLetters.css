@@ -10,7 +10,7 @@
     animation: type 7s steps(16) infinite, cursorBlink 0.75s step-end infinite;
     font-family: var(--mono-font);
     font-size: 4em;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0;
     overflow: hidden;
     text-align: left;
