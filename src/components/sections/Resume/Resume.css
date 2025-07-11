@@ -40,15 +40,23 @@
     margin-top: 0;
 }
 
+/* Top-level section header */
 .Resume h3 {
     margin: 0;
 }
 
+/* Company/School/Skill Type */
 .Resume h4 {
-    margin: 15px 0 7px 0;
+    margin: 25px 0 5px 0;
 }
 
+/* Job Title */
 .Resume h5 {
+    margin: 15px 0 3px 0;
+}
+
+/* Responsibilities/Key Accomplishments */
+.Resume h6 {
     margin: 15px 0 0px 0;
 }
 
@@ -57,9 +65,13 @@
     margin: 0;
 }
 
+.Resume-Role-Section {
+    margin-left: 25px;
+}
+
 .Resume ul {
     margin-top: 10px;
-    font-size: 13pt;
+    font-size: 12pt;
 }
 
 .Resume-Skills-List-Wrapper {
@@ -84,7 +96,7 @@
     }
 }
 
-@media (max-width: 525px) {
+@media (max-width: 700px) {
     .Resume-Skills-List-Wrapper {
         flex-direction: column;
     }
