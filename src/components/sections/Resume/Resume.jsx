@@ -3,7 +3,7 @@ import BulletList from "../../util-components/BulletList/BulletList.jsx";
 import sidwaysArrow from "../../../assets/flourishes/sideways-arrow.svg";
 import openNewTabIcon from "../../../assets/icons/open-new-tab-icon.svg"
 import resumePdf from "../../../assets/Jennifer_Bowser_Resume.pdf";
-import ResumeHeader from "../../util-components/ResumeHeader/ResumeHeader.jsx";
+import ResumeHeader from "./ResumeHeader/ResumeHeader.jsx";
 
 export default function Resume() {
     const responsabilities = [
