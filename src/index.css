@@ -29,6 +29,11 @@ html {
     scroll-behavior: smooth
 }
 
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -127,4 +132,50 @@ h6 {
 
 .Invisible {
     display: none;
+}
+
+/* Styling for things that don't have their own stylesheet */
+#Dots-Vertical-Flourish {
+    height: 100px;
+    align-self: flex-start;
+    /* top/bottom margins offset height */
+    margin: -50px 0 -50px 5vw;
+    position: relative;
+    /* top: -100px; */
+}
+
+
+#Vertical-Circles-Flourish {
+    height: 100px;
+    /* top/bottom margin offset height */
+    margin: -50px 0 -50px 5vw;
+    align-self: flex-start;
+}
+
+@media (max-width:900px) {
+    #Dots-Vertical-Flourish {
+        height: 75px;
+        /* top/bottom margin offset height */
+        margin: -37.5px 0 -47.5px 40px;
+        transform: rotate(90deg);
+    }
+}
+
+
+@media (max-width:900px) {
+    #Dots-Vertical-Flourish {
+        height: 75px;
+        /* top/bottom margin offset height */
+        margin: -37.5px 0 -47.5px 40px;
+        transform: rotate(90deg);
+    }
+
+    #Vertical-Circles-Flourish {
+        height: 75px;
+        /* top/bottom margin offset height */
+        margin: -37.5px 0 -37.5px 5vw;
+        transform: rotate(90deg);
+        position: relative;
+        top: 20px;
+    }
 }

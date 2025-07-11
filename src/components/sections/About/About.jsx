@@ -1,4 +1,5 @@
-import images from "../../../util/TechImages";
+import techImages from "../../../util/TechImages";
+import horizontalLines from "@/assets/flourishes/vertical-lines.svg"
 import ImageTile from "../../util-components/ImageTile/ImageTile.jsx";
 import jointedDownArrow from "../../../assets/flourishes/jointed-down-arrow.svg";
 import "./About.css";
@@ -16,12 +17,13 @@ export default function About() {
                 innovative ways to solve complex problems while improving user experiences. Let’s connect!
             </p>
             <img src={jointedDownArrow} id="About-JointedDownArrow"></img>
+            <img src={horizontalLines} id="Horizontal-Lines-Flourish"></img>
             <section className="About-Stack">
                 <h2>my stack<span className="Accent-Text">:</span></h2>
                 <p>Here are a few technologies I&apos;m enjoying right now &darr;</p>
                 <div className="Dropshadow-Box">
-                    {Object.keys(images).map((key) => (
-                        <ImageTile altText={key} imgSrc={images[key]} key={key} />
+                    {Object.keys(techImages).map((imageName) => (
+                        <ImageTile altText={imageName} imgSrc={techImages[imageName]} key={imageName} />
                     ))}
                 </div>
             </section>

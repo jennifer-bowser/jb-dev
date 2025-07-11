@@ -1,6 +1,9 @@
 import "./Resume.css";
 import BulletList from "../../util-components/BulletList/BulletList.jsx";
 import sidewaysArrow from "@/assets/flourishes/sideways-arrow.svg";
+import verticalCircles from "@/assets/flourishes/vertical-circles.svg"
+import verticalLines from "@/assets/flourishes/vertical-lines.svg"
+import verticalDots from "@/assets/flourishes/dots-vertical.svg"
 import openNewTabIcon from "@/assets/icons/open-new-tab-icon.svg"
 import resumePdf from "@/assets/Jennifer_Bowser_Resume.pdf";
 import ResumeHeader from "./ResumeHeader/ResumeHeader.jsx";
@@ -95,6 +98,9 @@ export default function Resume() {
 
     return (
         <>
+            <img src={verticalCircles} className="Resume-Flourish" id="Vertical-Circles-Flourish-Resume"></img>
+            <img src={verticalLines} className="Resume-Flourish" id="Vertical-Lines-Flourish-Resume"></img>
+            <img src={verticalDots} className="Resume-Flourish" id="Vertical-Dots-Flourish-Resume"></img>
             <img src={sidewaysArrow} id="Resume-SidewaysArrow"></img>
             <a className="Resume-PDF-Link Subtitle" href={resumePdf} target="_blank" type="application/pdf" rel="alternate" media="print">view as pdf<img src={openNewTabIcon} width="11.2px" /></a>
             <div className="Dropshadow-Box" >

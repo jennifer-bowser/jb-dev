@@ -4,9 +4,10 @@
     padding: 125px 12%;
     max-width: var(--max-page-width);
     margin: 0 auto;
+    width: 100%;
 }
 
-.Section h1{
+.Section h1 {
     opacity: 0;
 }
 
@@ -30,18 +31,18 @@
     }
 }
 
-@media (max-width: 900px){
-    .Section{
+@media (max-width: 900px) {
+    .Section {
         padding: 70px 12%;
     }
-    
-    .Section h1{
+
+    .Section h1 {
         margin-bottom: 20px;
     }
 }
 
-@media (max-width: 500px){
-    .Section{
+@media (max-width: 500px) {
+    .Section {
         padding: 70px 5%;
     }
 }
