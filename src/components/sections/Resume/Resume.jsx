@@ -1,12 +1,12 @@
 import "./Resume.css";
 import BulletList from "../../util-components/BulletList/BulletList.jsx";
-import sidwaysArrow from "../../../assets/flourishes/sideways-arrow.svg";
-import openNewTabIcon from "../../../assets/icons/open-new-tab-icon.svg"
-import resumePdf from "../../../assets/Jennifer_Bowser_Resume.pdf";
+import sidewaysArrow from "@/assets/flourishes/sideways-arrow.svg";
+import openNewTabIcon from "@/assets/icons/open-new-tab-icon.svg"
+import resumePdf from "@/assets/Jennifer_Bowser_Resume.pdf";
 import ResumeHeader from "./ResumeHeader/ResumeHeader.jsx";
 
 export default function Resume() {
-    const responsabilities = [
+    const responsibilities = [
         "Design and build full-stack, interactive, reusable features for Lightcast’s flagship SaaS application using JavaScript (React, D3.js) and PHP.",
         "Maintain and optimize labor analytics software by identifying and resolving bugs, implementing feature updates, and optimizing code performance, helping to create a seamless experience for over 30,000 enterprise customers.",
         "Developed robust interfaces to consume and display data from RESTful APIs and relational SQL databases (MySQL, PostgreSQL), optimizing data retrieval and processing for enhanced performance.",
@@ -66,7 +66,7 @@ export default function Resume() {
 
     return (
         <>
-            <img src={sidwaysArrow} id="Resume-SidewaysArrow"></img>
+            <img src={sidewaysArrow} id="Resume-SidewaysArrow"></img>
             <a className="Resume-PDF-Link Subtitle" href={resumePdf} target="_blank" type="application/pdf" rel="alternate" media="print">view as pdf<img src={openNewTabIcon} width="11.2px" /></a>
             <div className="Dropshadow-Box" >
                 <section>
@@ -80,8 +80,8 @@ export default function Resume() {
                         <p className="Subtitle">May 2022 — March 2023</p>
                     </section>
                     <section>
-                        <h5>Responsabilities:</h5>
-                        <BulletList listItems={responsabilities} />
+                        <h5>Responsibilities:</h5>
+                        <BulletList listItems={responsibilities} />
                     </section>
                     <section>
                         <h5>Key Accomplishments:</h5>
