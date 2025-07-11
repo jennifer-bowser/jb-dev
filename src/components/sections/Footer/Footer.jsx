@@ -1,8 +1,8 @@
 import "./Footer.css";
 
-export default function Footer(){
+export default function Footer() {
     return (
-        <div className="Footer">
+        <div className="Footer Subtitle">
             &copy; Jennifer Bowser
         </div>
     )
