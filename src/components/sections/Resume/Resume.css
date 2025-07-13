@@ -6,7 +6,6 @@
 }
 
 #Vertical-Circles-Flourish-Resume {
-    /* top/bottom margins offset height */
     margin-right: -5vw;
     align-self: flex-end;
     position: relative;
@@ -14,7 +13,9 @@
 }
 
 #Vertical-Lines-Flourish-Resume {
+    height: 150px;
     /* top/bottom margins offset height */
+    margin: -75px 0;
     margin-left: -5vw;
     align-self: flex-start;
     position: relative;
@@ -23,7 +24,6 @@
 
 #Vertical-Dots-Flourish-Resume {
     align-self: flex-end;
-    /* top/bottom margins offset height */
     margin-right: -5vw;
     position: relative;
     top: 2000px;
@@ -129,13 +129,6 @@
         margin-bottom: -37.5px;
     }
 
-    #Vertical-Lines-Flourish-Resume {
-        margin-left: -8vw;
-        height: 100px;
-        margin-top: -50px;
-        margin-bottom: -50px;
-    }
-
     #Vertical-Circles-Flourish-Resume,
     #Vertical-Dots-Flourish-Resume {
         margin-right: -8vw;
@@ -144,7 +137,7 @@
 
 @media (max-width: 900px) {
     #Vertical-Lines-Flourish-Resume {
-        margin-left: -10vw;
+        margin-left: -8vw;
     }
 
     #Vertical-Circles-Flourish-Resume,
@@ -156,7 +149,7 @@
 
 @media (max-width: 700px) {
     .Resume-Flourish {
-        opacity: 0;
+        display: none;
     }
 }
 

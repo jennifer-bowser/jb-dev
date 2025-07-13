@@ -1,12 +1,12 @@
-.Contact-Links{
+.Contact-Links {
     align-items: center;
     display: flex;
     justify-content: flex-start;
     gap: 75px;
 }
 
-@media (max-width: 850px){
-    .Contact-Links{
+@media (max-width: 850px) {
+    .Contact-Links {
         flex-wrap: wrap;
     }
 }

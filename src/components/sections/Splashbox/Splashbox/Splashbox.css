@@ -11,7 +11,7 @@
     width: 100%;
 }
 
-.Splashbox-Content-Wrapper{
+.Splashbox-Content-Wrapper {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -20,12 +20,12 @@
     max-height: 600px;
 }
 
-.Splashbox .TypingLetters{
+.Splashbox .TypingLetters {
     align-self: flex-start;
     margin-top: 7%;
 }
 
-.Splashbox-Row2{
+.Splashbox-Row2 {
     align-items: center;
     display: flex;
     justify-content: space-evenly;
@@ -34,23 +34,23 @@
     max-height: 600px;
 }
 
-.Splashbox-Flourish{
+.Splashbox-Flourish {
     position: absolute;
     width: 100px;
 }
 
-#Splashbox-RectangleCircleOutline{
+#Splashbox-RectangleCircleOutline {
     top: 150px;
     right: 50px;
 }
 
-#Splashbox-CircleOutlineSolid{
+#Splashbox-CircleOutlineSolid {
     bottom: 50px;
     left: 50px;
 }
 
-@media (max-width: 1180px){
-    .Splashbox-Content-Wrapper{
+@media (max-width: 1180px) {
+    .Splashbox-Content-Wrapper {
         flex-wrap: wrap;
     }
 
@@ -58,50 +58,51 @@
         margin-top: 0;
     }
 
-    .Splashbox-Row2{
+    .Splashbox-Row2 {
         justify-content: center;
         height: 450px;
     }
 }
 
-@media (max-width: 900px){
-    .Splashbox{
+@media (max-width: 900px) {
+    .Splashbox {
         margin-bottom: 100px;
     }
 }
 
-@media (max-width: 775px){
-    .Splashbox-Content-Wrapper{
+@media (max-width: 775px) {
+    .Splashbox-Content-Wrapper {
         height: auto;
     }
 
-    .Splashbox-Row2{
+    .Splashbox-Row2 {
         justify-content: center;
         height: 40vh;
         margin-top: 40px;
     }
 
-    .Splashbox-Flourish{
+    .Splashbox-Flourish {
         width: 75px;
     }
 
-    #Splashbox-RectangleCircleOutline{
+    #Splashbox-RectangleCircleOutline {
         top: 110px;
         right: 20px;
     }
 
-    #Splashbox-CircleOutlineSolid{
-        bottom: calc(0vh - 37.5px); /* 37.5 = radius of img*/
+    #Splashbox-CircleOutlineSolid {
+        bottom: calc(0vh - 37.5px);
+        /* 37.5 = radius of img*/
         left: 20px;
     }
 }
 
-@media (max-width: 500px){
-    .Splashbox-Content-Wrapper{
+@media (max-width: 500px) {
+    .Splashbox-Content-Wrapper {
         height: 300px;
     }
 
-    .Splashbox-Row2{
+    .Splashbox-Row2 {
         margin-top: 20px;
         height: 250px;
     }

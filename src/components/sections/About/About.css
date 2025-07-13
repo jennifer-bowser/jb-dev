@@ -50,7 +50,7 @@
 }
 
 #About-JointedDownArrow {
-    margin: 0 auto;
+    margin: 18px auto 3px auto;
     position: relative;
     right: 100px;
     transition: var(--transition);
