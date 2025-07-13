@@ -4,7 +4,7 @@
 
     align-items: center;
     background-color: var(--accent-color);
-    box-shadow: 3px 3px 0px gray;
+    box-shadow: 3px 3px 0px rgb(82, 82, 82);
     border: 1px solid var(--contrast-color);
     border-radius: 50%;
     bottom: var(--offset);
@@ -31,7 +31,7 @@
 
 .BackToTop:hover,
 .BackToTop:focus {
-    box-shadow: 5px 5px 0px rgb(159, 159, 159);
+    box-shadow: 5px 5px 0px rgb(106, 106, 106);
     transform: scale(1.1);
 }
 
