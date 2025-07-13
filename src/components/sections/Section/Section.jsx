@@ -18,12 +18,6 @@ export default function Section({ title }) {
 
         if (entry.isIntersecting && !classList.contains(animationClassName)) {
             classList.add(animationClassName);
-
-            // Remove the animation after it plays once, so it doesn't
-            // repeat again until after the user has scrolled away
-            setTimeout(() => {
-                classList.remove(animationClassName);
-            }, 800); // animation lasts 0.8s
         }
         else if (!entry.isIntersecting) {
             classList.remove(animationClassName);
@@ -34,7 +28,7 @@ export default function Section({ title }) {
         const options = {
             root: null,
             rootMargin: "0px",
-            threshold: 0.9
+            threshold: 0.8
         }
 
         const observer = new IntersectionObserver(observerFunction, options);
