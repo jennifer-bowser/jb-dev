@@ -7,7 +7,8 @@ export default function Navbar({ sections }) {
 
     return (
         <div className="Navbar">
-            <div className="Name-Logo"> Jennifer Bowser</div>
+            {/* <div className="Name-Logo"> Jennifer Bowser</div> */}
+            <img src={fullLogo} className="Navbar-FullLogo"></img>
             <NavMenu sections={sections} />
         </div >
     )

@@ -25,38 +25,19 @@
     top: 79px;
 }
 
-.Name-Logo {
-    font-weight: 600;
-    font-size: 28pt;
-    margin-right: 20px;
-}
 
-/* 
 .Navbar-FullLogo {
     height: auto;
     margin-bottom: 5px;
     width: 300px;
     transition: var(--transition);
-} */
-
-@media (max-width: 825px) {
-    .Name-Logo {
-        font-size: 24pt;
-    }
-}
-
-@media (max-width: 500px) {
-    .Name-Logo {
-        font-size: 18pt;
-        margin-right: 10px;
-    }
 }
 
 @media (max-width: 750px) {
-    /* .Navbar-FullLogo {
+    .Navbar-FullLogo {
         width: 240px;
         margin-bottom: 0;
-    } */
+    }
 
     .Navbar {
         padding: 10px 15px;
